@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emojify</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <h1>Emojify</h1>
+        <p>Drag a video (max 15s / 20MB) or image and get a mosaic result.</p>
+      </header>
+
+      <section class="card">
+        <div id="dropzone" class="dropzone">
+          <input id="file" type="file" accept="video/*,image/*" />
+          <div class="drop-content">
+            <span class="drop-title" id="drop-title">Drop video here</span>
+            <span class="drop-sub" id="drop-sub">or click to pick a file</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <label id="preset-control">
+            Preset
+            <select id="preset">
+              <option value="custom">Custom</option>
+              <option value="fast">Fast</option>
+              <option value="balanced" selected>Balanced</option>
+              <option value="detail">High detail</option>
+            </select>
+          </label>
+          <label id="fps-control">
+            FPS
+            <input id="fps" type="number" min="1" max="30" value="8" />
+          </label>
+          <label>
+            Emoji size
+            <input id="size" type="number" min="4" max="48" value="12" />
+          </label>
+          <label>
+            Format
+            <select id="format">
+              <option value="mp4">MP4</option>
+              <option value="gif">GIF</option>
+            </select>
+          </label>
+        </div>
+
+        <button id="process" class="primary">Process</button>
+        <div id="status" class="status"></div>
+      </section>
+
+      <section class="card queue">
+        <h2>Queue</h2>
+        <div id="queue" class="queue-list"></div>
+      </section>
+
+      <section class="card live">
+        <h2>Live webcam effect</h2>
+        <p>Realtime local preview from your webcam.</p>
+        <div class="controls">
+          <label>
+            Emoji size
+            <input id="live-size" type="number" min="4" max="48" value="12" />
+          </label>
+          <label>
+            Max emoji block
+            <input id="live-block" type="number" min="1" max="20" value="8" />
+          </label>
+        </div>
+        <button id="live-toggle" class="primary">Start live webcam</button>
+        <div id="live-status" class="status"></div>
+        <div class="live-preview-wrap">
+          <img id="live-preview" alt="Live webcam mosaic preview" />
+        </div>
+      </section>
+
+      <footer class="footer">
+        made by hubmerto
+        <a href="https://hubmerto.com" target="_blank" rel="noreferrer">website link</a>
+      </footer>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

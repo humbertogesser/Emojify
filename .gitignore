@@ -1,0 +1,10 @@
+scratch.rb
+output/*.*
+tmp/*.*
+images/*.*
+input/*.*
+speedtests.rb
+tmp_py/
+webapp/__pycache__/
+__pycache__/
+.DS_Store
