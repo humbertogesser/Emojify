@@ -20,6 +20,8 @@ const liveBlockInput = document.getElementById("live-block");
 let selectedFile = null;
 const jobs = [];
 let liveRunning = false;
+let liveStream = null;
+let liveLoopId = null;
 
 const presets = {
   custom: null,
@@ -208,23 +210,81 @@ function setLiveStatus(text) {
   if (liveStatus) liveStatus.textContent = text;
 }
 
-function startLive() {
+const webcamVideo = document.getElementById("webcam-video");
+const captureCanvas = document.getElementById("capture-canvas");
+
+async function startLive() {
   if (!liveToggleBtn || !livePreview || !liveSizeInput || !liveBlockInput) return;
-  const size = Math.max(4, Math.min(48, parseInt(liveSizeInput.value || "12", 10)));
-  const maxBlock = Math.max(1, Math.min(20, parseInt(liveBlockInput.value || "8", 10)));
-  const url = `/live_stream?size=${size}&max_block=${maxBlock}&t=${Date.now()}`;
+
+  try {
+    liveStream = await navigator.mediaDevices.getUserMedia({
+      video: { width: { ideal: 640 }, height: { ideal: 480 } },
+      audio: false,
+    });
+  } catch (err) {
+    setLiveStatus("Camera access denied. Allow camera in your browser.");
+    return;
+  }
+
+  webcamVideo.srcObject = liveStream;
+  await webcamVideo.play();
 
   liveRunning = true;
-  liveToggleBtn.textContent = "Stop live webcam";
-  livePreview.src = url;
-  setLiveStatus("Starting live stream...");
+  liveToggleBtn.textContent = "Stop Webcam";
+  setLiveStatus("Live stream running.");
+  liveLoop();
 }
 
 function stopLive() {
-  if (!liveToggleBtn || !livePreview) return;
   liveRunning = false;
-  liveToggleBtn.textContent = "Start live webcam";
-  livePreview.removeAttribute("src");
+  if (liveLoopId) {
+    clearTimeout(liveLoopId);
+    liveLoopId = null;
+  }
+  if (liveStream) {
+    liveStream.getTracks().forEach((t) => t.stop());
+    liveStream = null;
+  }
+  if (webcamVideo) webcamVideo.srcObject = null;
+  if (livePreview) livePreview.removeAttribute("src");
+  if (liveToggleBtn) liveToggleBtn.textContent = "Start Webcam";
+}
+
+async function liveLoop() {
+  if (!liveRunning) return;
+
+  const size = Math.max(4, Math.min(48, parseInt(liveSizeInput.value || "12", 10)));
+  const maxBlock = Math.max(1, Math.min(20, parseInt(liveBlockInput.value || "8", 10)));
+
+  captureCanvas.width = webcamVideo.videoWidth || 640;
+  captureCanvas.height = webcamVideo.videoHeight || 480;
+  const ctx = captureCanvas.getContext("2d");
+  ctx.drawImage(webcamVideo, 0, 0);
+
+  try {
+    const blob = await new Promise((resolve) =>
+      captureCanvas.toBlob(resolve, "image/jpeg", 0.8)
+    );
+    const form = new FormData();
+    form.append("frame", blob, "frame.jpg");
+    form.append("size", size);
+    form.append("max_block", maxBlock);
+
+    const res = await fetch("/process_frame", { method: "POST", body: form });
+    if (res.ok) {
+      const mosaicBlob = await res.blob();
+      const url = URL.createObjectURL(mosaicBlob);
+      const oldSrc = livePreview.src;
+      livePreview.src = url;
+      if (oldSrc && oldSrc.startsWith("blob:")) URL.revokeObjectURL(oldSrc);
+    }
+  } catch (err) {
+    /* network hiccup, try next frame */
+  }
+
+  if (liveRunning) {
+    liveLoopId = setTimeout(liveLoop, 200);
+  }
 }
 
 if (liveToggleBtn) {
@@ -235,18 +295,5 @@ if (liveToggleBtn) {
       return;
     }
     startLive();
-  });
-}
-
-if (livePreview) {
-  livePreview.addEventListener("load", () => {
-    if (!liveRunning) return;
-    setLiveStatus("Live stream running.");
-  });
-
-  livePreview.addEventListener("error", () => {
-    if (!liveRunning) return;
-    setLiveStatus("Could not start webcam stream. Close apps that are using the camera and try again.");
-    stopLive();
   });
 }

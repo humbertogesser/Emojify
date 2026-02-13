@@ -14,11 +14,6 @@ from flask import Flask, Response, jsonify, render_template, request, send_file
 from PIL import Image
 
 try:
-    import cv2
-except Exception:
-    cv2 = None
-
-try:
     from video_emojisaic import build_emoji_palette, mosaic_image
 except ModuleNotFoundError:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -213,40 +208,6 @@ def get_palette_for_size(size: int):
         return cached
 
 
-def iter_live_mjpeg(camera, palette_colors, palette_images, size: int, max_block: int):
-    try:
-        while True:
-            ok, frame = camera.read()
-            if not ok:
-                break
-
-            height, width = frame.shape[:2]
-            max_dim = 640
-            if max(height, width) > max_dim:
-                scale = max_dim / float(max(height, width))
-                frame = cv2.resize(
-                    frame,
-                    (int(width * scale), int(height * scale)),
-                    interpolation=cv2.INTER_AREA,
-                )
-
-            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            pil_frame = Image.fromarray(rgb)
-            mosaic = mosaic_image(
-                pil_frame,
-                palette_colors,
-                palette_images,
-                size=size,
-                zoom=1,
-                max_emoji_block=max_block,
-            )
-
-            buffer = io.BytesIO()
-            mosaic.save(buffer, format="JPEG", quality=86, optimize=True)
-            jpeg = buffer.getvalue()
-            yield b"--frame\r\nContent-Type: image/jpeg\r\n\r\n" + jpeg + b"\r\n"
-    finally:
-        camera.release()
 
 
 def worker():
@@ -333,27 +294,39 @@ def download(job_id):
     return send_file(job.output_path, as_attachment=True, download_name=filename)
 
 
-@app.route("/live_stream")
-def live_stream():
-    if cv2 is None:
-        return jsonify({"error": "OpenCV is required for live mode. Install with: pip install opencv-python"}), 503
+@app.route("/process_frame", methods=["POST"])
+def process_frame():
+    frame_file = request.files.get("frame")
+    if frame_file is None:
+        return jsonify({"error": "No frame"}), 400
 
-    size = clamp_int(request.args.get("size"), 4, 48, 12)
-    max_block = clamp_int(request.args.get("max_block"), 1, 20, 8)
-    camera = cv2.VideoCapture(0)
-    if not camera.isOpened():
-        camera.release()
-        return jsonify({"error": "Could not access webcam. Close apps that may already be using your camera."}), 503
+    size = clamp_int(request.form.get("size"), 4, 48, 12)
+    max_block = clamp_int(request.form.get("max_block"), 1, 20, 8)
+
+    pil_frame = Image.open(frame_file.stream).convert("RGB")
+
+    max_dim = 640
+    w, h = pil_frame.size
+    if max(w, h) > max_dim:
+        scale = max_dim / float(max(w, h))
+        pil_frame = pil_frame.resize(
+            (int(w * scale), int(h * scale)), Image.LANCZOS
+        )
 
     palette_colors, palette_images = get_palette_for_size(size)
-    stream = iter_live_mjpeg(
-        camera=camera,
-        palette_colors=palette_colors,
-        palette_images=palette_images,
+    mosaic = mosaic_image(
+        pil_frame,
+        palette_colors,
+        palette_images,
         size=size,
-        max_block=max_block,
+        zoom=1,
+        max_emoji_block=max_block,
     )
-    return Response(stream, mimetype="multipart/x-mixed-replace; boundary=frame")
+
+    buffer = io.BytesIO()
+    mosaic.save(buffer, format="JPEG", quality=85)
+    buffer.seek(0)
+    return Response(buffer.getvalue(), mimetype="image/jpeg")
 
 
 if __name__ == "__main__":

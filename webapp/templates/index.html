@@ -7,83 +7,130 @@
     <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
-    <main class="page">
-      <header class="header">
-        <h1>Emojify</h1>
-        <p>Drag a video (max 15s / 20MB) or image and get a mosaic result.</p>
-      </header>
+    <div class="desktop">
+      <div class="taskbar">
+        <button class="start-btn">Start</button>
+        <div class="taskbar-divider"></div>
+        <span class="taskbar-title">Emojify.exe</span>
+        <div class="taskbar-spacer"></div>
+        <span class="taskbar-clock" id="clock"></span>
+      </div>
 
-      <section class="card">
-        <div id="dropzone" class="dropzone">
-          <input id="file" type="file" accept="video/*,image/*" />
-          <div class="drop-content">
-            <span class="drop-title" id="drop-title">Drop video here</span>
-            <span class="drop-sub" id="drop-sub">or click to pick a file</span>
+      <main class="window" id="main-window">
+        <div class="title-bar">
+          <div class="title-bar-text">Emojify.exe</div>
+          <div class="title-bar-controls">
+            <button class="title-btn minimize">_</button>
+            <button class="title-btn maximize">[]</button>
+            <button class="title-btn close">X</button>
           </div>
         </div>
 
-        <div class="controls">
-          <label id="preset-control">
-            Preset
-            <select id="preset">
-              <option value="custom">Custom</option>
-              <option value="fast">Fast</option>
-              <option value="balanced" selected>Balanced</option>
-              <option value="detail">High detail</option>
-            </select>
-          </label>
-          <label id="fps-control">
-            FPS
-            <input id="fps" type="number" min="1" max="30" value="8" />
-          </label>
-          <label>
-            Emoji size
-            <input id="size" type="number" min="4" max="48" value="12" />
-          </label>
-          <label>
-            Format
-            <select id="format">
-              <option value="mp4">MP4</option>
-              <option value="gif">GIF</option>
-            </select>
-          </label>
+        <div class="menu-bar">
+          <span class="menu-item">File</span>
+          <span class="menu-item">Edit</span>
+          <span class="menu-item">View</span>
+          <span class="menu-item">Help</span>
         </div>
 
-        <button id="process" class="primary">Process</button>
-        <div id="status" class="status"></div>
-      </section>
+        <div class="window-body">
+          <div class="group-box">
+            <div class="group-box-label">Select Media</div>
+            <div id="dropzone" class="dropzone">
+              <input id="file" type="file" accept="video/*,image/*" />
+              <div class="drop-content">
+                <span class="drop-icon">&#128193;</span>
+                <span class="drop-title" id="drop-title">Drop video here</span>
+                <span class="drop-sub" id="drop-sub">or click to browse...</span>
+              </div>
+            </div>
+          </div>
 
-      <section class="card queue">
-        <h2>Queue</h2>
-        <div id="queue" class="queue-list"></div>
-      </section>
+          <div class="group-box">
+            <div class="group-box-label">Options</div>
+            <div class="controls">
+              <label id="preset-control">
+                Preset:
+                <select id="preset">
+                  <option value="custom">Custom</option>
+                  <option value="fast">Fast</option>
+                  <option value="balanced" selected>Balanced</option>
+                  <option value="detail">High detail</option>
+                </select>
+              </label>
+              <label id="fps-control">
+                FPS:
+                <input id="fps" type="number" min="1" max="30" value="8" />
+              </label>
+              <label>
+                Emoji size:
+                <input id="size" type="number" min="4" max="48" value="12" />
+              </label>
+              <label>
+                Format:
+                <select id="format">
+                  <option value="mp4">MP4</option>
+                  <option value="gif">GIF</option>
+                </select>
+              </label>
+            </div>
+          </div>
 
-      <section class="card live">
-        <h2>Live webcam effect</h2>
-        <p>Realtime local preview from your webcam.</p>
-        <div class="controls">
-          <label>
-            Emoji size
-            <input id="live-size" type="number" min="4" max="48" value="12" />
-          </label>
-          <label>
-            Max emoji block
-            <input id="live-block" type="number" min="1" max="20" value="8" />
-          </label>
+          <div class="button-row">
+            <button id="process" class="win-btn primary">Process</button>
+          </div>
+
+          <div class="status-bar">
+            <div id="status" class="status-text">Ready</div>
+          </div>
+
+          <div class="group-box">
+            <div class="group-box-label">Queue</div>
+            <div id="queue" class="queue-list"></div>
+          </div>
+
+          <div class="group-box">
+            <div class="group-box-label">Live Webcam Effect</div>
+            <p class="hint-text">Realtime local preview from your webcam.</p>
+            <div class="controls">
+              <label>
+                Emoji size:
+                <input id="live-size" type="number" min="4" max="48" value="12" />
+              </label>
+              <label>
+                Max block:
+                <input id="live-block" type="number" min="1" max="20" value="8" />
+              </label>
+            </div>
+            <button id="live-toggle" class="win-btn">Start Webcam</button>
+            <div id="live-status" class="status-text"></div>
+            <video id="webcam-video" autoplay playsinline style="display:none"></video>
+            <canvas id="capture-canvas" style="display:none"></canvas>
+            <div class="live-preview-wrap">
+              <img id="live-preview" alt="Live webcam mosaic preview" />
+            </div>
+          </div>
+
+          <div class="footer-text">
+            Made by Humberto &middot;
+            <a href="https://hubmerto.com" target="_blank" rel="noreferrer">website</a>
+          </div>
         </div>
-        <button id="live-toggle" class="primary">Start live webcam</button>
-        <div id="live-status" class="status"></div>
-        <div class="live-preview-wrap">
-          <img id="live-preview" alt="Live webcam mosaic preview" />
-        </div>
-      </section>
-
-      <footer class="footer">
-        made by hubmerto
-        <a href="https://hubmerto.com" target="_blank" rel="noreferrer">website link</a>
-      </footer>
-    </main>
+      </main>
+    </div>
 
     <script src="/static/app.js"></script>
+    <script>
+      function updateClock() {
+        const now = new Date();
+        const h = now.getHours();
+        const m = String(now.getMinutes()).padStart(2, '0');
+        const ampm = h >= 12 ? 'PM' : 'AM';
+        const h12 = h % 12 || 12;
+        document.getElementById('clock').textContent = h12 + ':' + m + ' ' + ampm;
+      }
+      updateClock();
+      setInterval(updateClock, 30000);
+    </script>
   </body>
 </html>

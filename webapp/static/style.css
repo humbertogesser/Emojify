@@ -1,64 +1,239 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
+/* === Windows 95 Theme for Emojify === */
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 :root {
-  --bg: #0f1220;
-  --panel: #181c2f;
-  --accent: #f4b53f;
-  --accent-2: #4dd0e1;
-  --text: #f7f7fb;
-  --muted: #a9b0c4;
-  --border: #2a314a;
+  --win-bg: #008080;
+  --win-silver: #c0c0c0;
+  --win-dark: #808080;
+  --win-darker: #404040;
+  --win-white: #ffffff;
+  --win-black: #000000;
+  --win-title: #000080;
+  --win-title-text: #ffffff;
+  --win-field: #ffffff;
+  --win-field-text: #000000;
+  --win-highlight: #000080;
+  --win-highlight-text: #ffffff;
+  --font: "VT323", "MS Sans Serif", "Segoe UI", Tahoma, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* --- Beveled border helpers --- */
+.outset {
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+}
+
+.inset {
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+}
+
+/* --- Desktop --- */
 body {
   margin: 0;
-  font-family: "Space Grotesk", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(circle at top, #23284a 0%, #0f1220 50%, #0b0d17 100%);
-  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  background: var(--win-bg);
+  color: var(--win-black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
-.page {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 48px 24px 80px;
+/* --- Taskbar --- */
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  background: var(--win-silver);
+  border-top: 2px solid var(--win-white);
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  gap: 4px;
+  z-index: 100;
+  font-family: var(--font);
 }
 
-.header h1 {
-  font-size: 42px;
-  margin: 0 0 8px;
+.start-btn {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 8px;
+  height: 28px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+  cursor: pointer;
 }
 
-.header p {
-  color: var(--muted);
-  margin: 0 0 32px;
+.start-btn:active {
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
 }
 
-.card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+.taskbar-divider {
+  width: 2px;
+  height: 24px;
+  border-left: 1px solid var(--win-dark);
+  border-right: 1px solid var(--win-white);
+  margin: 0 2px;
 }
 
+.taskbar-title {
+  font-size: 15px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 2px 12px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.taskbar-spacer {
+  flex: 1;
+}
+
+.taskbar-clock {
+  font-size: 15px;
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 2px 10px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+/* --- Window --- */
+.window {
+  max-width: 680px;
+  width: 95%;
+  margin: 24px auto;
+  margin-bottom: 60px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+  box-shadow: 4px 4px 0px var(--win-black);
+}
+
+/* --- Title bar --- */
+.title-bar {
+  background: linear-gradient(90deg, var(--win-title), #1084d0);
+  color: var(--win-title-text);
+  padding: 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.title-bar-text {
+  font-family: var(--font);
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.title-bar-controls {
+  display: flex;
+  gap: 2px;
+}
+
+.title-btn {
+  font-family: var(--font);
+  font-size: 12px;
+  width: 20px;
+  height: 18px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.title-btn:active {
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+}
+
+/* --- Menu bar --- */
+.menu-bar {
+  background: var(--win-silver);
+  padding: 2px 0;
+  border-bottom: 1px solid var(--win-dark);
+  display: flex;
+  gap: 0;
+}
+
+.menu-item {
+  font-family: var(--font);
+  font-size: 15px;
+  padding: 2px 10px;
+  cursor: default;
+}
+
+.menu-item:hover {
+  background: var(--win-highlight);
+  color: var(--win-highlight-text);
+}
+
+/* --- Window body --- */
+.window-body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* --- Group boxes (fieldset style) --- */
+.group-box {
+  border: 2px solid;
+  border-color: var(--win-dark) var(--win-white) var(--win-white) var(--win-dark);
+  padding: 14px 10px 10px;
+  position: relative;
+  margin-top: 6px;
+}
+
+.group-box-label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: var(--win-silver);
+  padding: 0 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* --- Drop zone --- */
 .dropzone {
   position: relative;
-  border: 2px dashed var(--border);
-  border-radius: 14px;
-  padding: 28px;
+  background: var(--win-field);
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 24px 12px;
   text-align: center;
-  transition: border-color 0.2s ease, background 0.2s ease;
   cursor: pointer;
 }
 
 .dropzone.drag {
-  border-color: var(--accent);
-  background: rgba(244, 181, 63, 0.08);
+  background: #d0d0ff;
 }
 
 .dropzone input {
@@ -68,175 +243,241 @@ body {
   cursor: pointer;
 }
 
+.drop-icon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 4px;
+}
+
 .drop-title {
   display: block;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .drop-sub {
-  color: var(--muted);
+  color: var(--win-dark);
+  font-size: 15px;
 }
 
+/* --- Controls / form fields --- */
 .controls {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 16px;
-  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 8px 0;
 }
 
 .controls label {
-  display: grid;
-  gap: 8px;
-  color: var(--muted);
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 15px;
 }
 
 .controls input,
 .controls select {
-  background: #0f1220;
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 12px;
+  font-family: var(--font);
   font-size: 16px;
+  background: var(--win-field);
+  color: var(--win-field-text);
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 3px 6px;
+  border-radius: 0;
+  outline: none;
 }
 
-.primary {
-  background: linear-gradient(120deg, var(--accent), var(--accent-2));
-  color: #111;
-  border: none;
-  padding: 12px 18px;
-  border-radius: 12px;
-  font-weight: 600;
+.controls input:focus,
+.controls select:focus {
+  outline: 1px dotted var(--win-black);
+  outline-offset: -3px;
+}
+
+/* --- Buttons --- */
+.win-btn {
+  font-family: var(--font);
   font-size: 16px;
+  padding: 4px 24px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
   cursor: pointer;
-  width: 100%;
+  min-height: 28px;
 }
 
-.primary:disabled {
-  opacity: 0.6;
+.win-btn:hover {
+  background: #d4d0c8;
+}
+
+.win-btn:active {
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+}
+
+.win-btn:disabled {
+  color: var(--win-dark);
   cursor: not-allowed;
 }
 
-.status {
-  margin-top: 12px;
-  color: var(--muted);
-  min-height: 20px;
+.win-btn.primary {
+  font-weight: bold;
+  outline: 1px solid var(--win-black);
+  outline-offset: -4px;
 }
 
-.queue {
-  margin-top: 24px;
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
-.queue h2 {
-  margin: 0 0 12px;
-  font-size: 20px;
+/* --- Status bar --- */
+.status-bar {
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 3px 8px;
+  background: var(--win-silver);
+  min-height: 24px;
 }
 
+.status-text {
+  font-size: 15px;
+  color: var(--win-field-text);
+  min-height: 18px;
+}
+
+/* --- Queue --- */
 .queue-list {
-  display: grid;
-  gap: 12px;
-}
-
-.queue-item {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 12px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 12px;
-  align-items: center;
-  background: #121624;
-}
-
-.queue-name {
-  font-weight: 600;
-}
-
-.queue-progress {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 6px;
 }
 
+.queue-item {
+  background: var(--win-field);
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  padding: 6px 8px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.queue-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.queue-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
 .queue-progress .bar {
-  background: #0f1220;
-  border-radius: 8px;
-  height: 8px;
+  background: var(--win-field);
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  height: 16px;
   overflow: hidden;
-  border: 1px solid var(--border);
 }
 
 .queue-progress .bar span {
   display: block;
   height: 100%;
   width: 0%;
-  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  background: repeating-linear-gradient(
+    90deg,
+    var(--win-title) 0px,
+    var(--win-title) 8px,
+    transparent 8px,
+    transparent 10px
+  );
   transition: width 0.3s ease;
 }
 
 .queue-progress .label {
-  color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
+  color: var(--win-dark);
 }
 
 .queue-item .download {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text);
-  padding: 8px 12px;
-  border-radius: 10px;
+  font-family: var(--font);
+  font-size: 14px;
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+  padding: 3px 10px;
   cursor: pointer;
 }
 
+.queue-item .download:active {
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+}
+
 .queue-item .download:disabled {
-  opacity: 0.5;
+  color: var(--win-dark);
   cursor: not-allowed;
 }
 
-.live {
-  margin-top: 24px;
-}
-
-.live h2 {
-  margin: 0;
-  font-size: 20px;
-}
-
-.live p {
-  margin-top: 8px;
-  color: var(--muted);
+/* --- Live webcam --- */
+.hint-text {
+  font-size: 15px;
+  color: var(--win-dark);
+  margin: 0 0 4px;
 }
 
 .live-preview-wrap {
-  margin-top: 14px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  margin-top: 8px;
+  border: 2px solid;
+  border-color: var(--win-darker) var(--win-white) var(--win-white) var(--win-darker);
+  background: var(--win-black);
   overflow: hidden;
-  background: #0b0d17;
 }
 
 .live-preview-wrap img {
   display: block;
   width: 100%;
-  min-height: 220px;
+  min-height: 180px;
   object-fit: contain;
 }
 
-.footer {
-  margin-top: 28px;
-  color: var(--muted);
+/* --- Footer --- */
+.footer-text {
   font-size: 14px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
+  color: var(--win-dark);
+  text-align: center;
+  padding: 4px 0;
 }
 
-.footer a {
-  color: var(--accent-2);
-  text-decoration: none;
-}
-
-.footer a:hover {
+.footer-text a {
+  color: var(--win-title);
   text-decoration: underline;
+}
+
+.footer-text a:hover {
+  color: #0000ff;
+}
+
+/* --- Scrollbar (webkit) --- */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: repeating-conic-gradient(var(--win-silver) 0% 25%, var(--win-field) 0% 50%) 50% / 2px 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+}
+
+::-webkit-scrollbar-button {
+  background: var(--win-silver);
+  border: 2px solid;
+  border-color: var(--win-white) var(--win-darker) var(--win-darker) var(--win-white);
+  height: 16px;
 }
