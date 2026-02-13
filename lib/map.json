@@ -1,1478 +1,3530 @@
 {
   "emojis/1.png": {
-    "red": 187,
-    "green": 81,
-    "blue": 105,
-    "coverage": 0.361
-  },
-  "emojis/10.png": {
-    "red": 212,
-    "green": 203,
-    "blue": 203,
-    "coverage": 0.5085
-  },
-  "emojis/100.png": {
-    "red": 239,
-    "green": 183,
-    "blue": 62,
-    "coverage": 0.6493
-  },
-  "emojis/101.png": {
-    "red": 237,
-    "green": 184,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/102.png": {
-    "red": 234,
-    "green": 154,
-    "blue": 55,
-    "coverage": 0.6515
-  },
-  "emojis/103.png": {
-    "red": 195,
-    "green": 152,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/104.png": {
-    "red": 237,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/105.png": {
-    "red": 240,
-    "green": 187,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/106.png": {
-    "red": 239,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/107.png": {
-    "red": 238,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/108.png": {
-    "red": 217,
-    "green": 185,
-    "blue": 78,
-    "coverage": 0.6639
-  },
-  "emojis/109.png": {
-    "red": 237,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/11.png": {
-    "red": 149,
-    "green": 104,
-    "blue": 74,
-    "coverage": 0.3707
-  },
-  "emojis/110.png": {
-    "red": 241,
-    "green": 189,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/111.png": {
-    "red": 237,
-    "green": 186,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/112.png": {
-    "red": 242,
-    "green": 189,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/113.png": {
-    "red": 238,
-    "green": 176,
-    "blue": 58,
-    "coverage": 0.6651
-  },
-  "emojis/114.png": {
-    "red": 239,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.6518
-  },
-  "emojis/115.png": {
-    "red": 238,
-    "green": 181,
-    "blue": 54,
-    "coverage": 0.649
-  },
-  "emojis/116.png": {
-    "red": 236,
-    "green": 177,
-    "blue": 67,
-    "coverage": 0.655
-  },
-  "emojis/117.png": {
-    "red": 230,
-    "green": 175,
-    "blue": 81,
-    "coverage": 0.655
-  },
-  "emojis/118.png": {
-    "red": 235,
-    "green": 175,
-    "blue": 66,
-    "coverage": 0.655
-  },
-  "emojis/119.png": {
-    "red": 241,
-    "green": 189,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/12.png": {
-    "red": 76,
-    "green": 66,
-    "blue": 66,
-    "coverage": 0.3816
-  },
-  "emojis/120.png": {
-    "red": 237,
-    "green": 184,
-    "blue": 54,
-    "coverage": 0.6518
-  },
-  "emojis/121.png": {
-    "red": 238,
-    "green": 186,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/122.png": {
-    "red": 234,
-    "green": 122,
-    "blue": 39,
-    "coverage": 0.6488
-  },
-  "emojis/123.png": {
-    "red": 236,
-    "green": 184,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/124.png": {
-    "red": 233,
-    "green": 193,
-    "blue": 89,
-    "coverage": 0.6883
-  },
-  "emojis/125.png": {
-    "red": 226,
-    "green": 188,
-    "blue": 72,
-    "coverage": 0.6577
-  },
-  "emojis/126.png": {
-    "red": 238,
-    "green": 187,
-    "blue": 56,
-    "coverage": 0.6518
-  },
-  "emojis/127.png": {
-    "red": 235,
-    "green": 183,
-    "blue": 54,
-    "coverage": 0.649
-  },
-  "emojis/128.png": {
-    "red": 185,
-    "green": 160,
-    "blue": 104,
-    "coverage": 0.649
-  },
-  "emojis/129.png": {
-    "red": 225,
-    "green": 173,
-    "blue": 52,
-    "coverage": 0.649
-  },
-  "emojis/13.png": {
-    "red": 142,
-    "green": 136,
-    "blue": 133,
-    "coverage": 0.3817
-  },
-  "emojis/130.png": {
-    "red": 219,
-    "green": 186,
-    "blue": 76,
-    "coverage": 0.6663
-  },
-  "emojis/131.png": {
-    "red": 224,
-    "green": 171,
-    "blue": 51,
-    "coverage": 0.649
-  },
-  "emojis/132.png": {
-    "red": 232,
-    "green": 187,
-    "blue": 77,
-    "coverage": 0.649
-  },
-  "emojis/133.png": {
-    "red": 202,
-    "green": 177,
-    "blue": 91,
-    "coverage": 0.6497
-  },
-  "emojis/134.png": {
-    "red": 238,
-    "green": 186,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/135.png": {
-    "red": 236,
-    "green": 192,
-    "blue": 76,
-    "coverage": 0.6438
-  },
-  "emojis/136.png": {
-    "red": 238,
-    "green": 186,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/137.png": {
-    "red": 175,
-    "green": 164,
-    "blue": 121,
-    "coverage": 0.6577
-  },
-  "emojis/138.png": {
-    "red": 190,
-    "green": 163,
-    "blue": 113,
-    "coverage": 0.6961
-  },
-  "emojis/139.png": {
-    "red": 234,
-    "green": 182,
-    "blue": 55,
-    "coverage": 0.649
-  },
-  "emojis/14.png": {
-    "red": 164,
-    "green": 113,
-    "blue": 67,
-    "coverage": 0.3243
-  },
-  "emojis/140.png": {
-    "red": 225,
-    "green": 178,
-    "blue": 86,
-    "coverage": 0.6491
-  },
-  "emojis/141.png": {
-    "red": 224,
-    "green": 178,
-    "blue": 63,
-    "coverage": 0.6705
-  },
-  "emojis/142.png": {
     "red": 228,
-    "green": 174,
-    "blue": 50,
-    "coverage": 0.649
-  },
-  "emojis/143.png": {
-    "red": 224,
-    "green": 170,
-    "blue": 53,
-    "coverage": 0.6507
-  },
-  "emojis/144.png": {
-    "red": 243,
-    "green": 191,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/145.png": {
-    "red": 224,
-    "green": 213,
-    "blue": 174,
-    "coverage": 0.7354
-  },
-  "emojis/146.png": {
-    "red": 232,
-    "green": 193,
-    "blue": 106,
-    "coverage": 0.6479
-  },
-  "emojis/147.png": {
-    "red": 193,
-    "green": 157,
-    "blue": 65,
-    "coverage": 0.5769
-  },
-  "emojis/148.png": {
-    "red": 175,
-    "green": 163,
-    "blue": 97,
-    "coverage": 0.615
-  },
-  "emojis/149.png": {
-    "red": 195,
-    "green": 159,
-    "blue": 67,
-    "coverage": 0.5778
-  },
-  "emojis/15.png": {
-    "red": 175,
-    "green": 136,
-    "blue": 78,
-    "coverage": 0.3368
-  },
-  "emojis/150.png": {
-    "red": 203,
-    "green": 138,
-    "blue": 55,
-    "coverage": 0.5769
-  },
-  "emojis/151.png": {
-    "red": 202,
-    "green": 162,
-    "blue": 60,
-    "coverage": 0.5771
-  },
-  "emojis/152.png": {
-    "red": 205,
-    "green": 159,
-    "blue": 61,
-    "coverage": 0.5771
-  },
-  "emojis/153.png": {
-    "red": 197,
-    "green": 158,
-    "blue": 59,
-    "coverage": 0.5761
-  },
-  "emojis/154.png": {
-    "red": 193,
-    "green": 166,
-    "blue": 78,
-    "coverage": 0.5765
-  },
-  "emojis/155.png": {
-    "red": 202,
-    "green": 167,
-    "blue": 78,
-    "coverage": 0.6436
-  },
-  "emojis/156.png": {
-    "red": 240,
-    "green": 187,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/157.png": {
-    "red": 241,
-    "green": 189,
-    "blue": 57,
-    "coverage": 0.6491
-  },
-  "emojis/158.png": {
-    "red": 241,
-    "green": 189,
-    "blue": 56,
-    "coverage": 0.649
-  },
-  "emojis/159.png": {
-    "red": 229,
-    "green": 188,
-    "blue": 90,
-    "coverage": 0.649
-  },
-  "emojis/16.png": {
-    "red": 198,
-    "green": 195,
-    "blue": 195,
-    "coverage": 0.4352
-  },
-  "emojis/160.png": {
-    "red": 186,
-    "green": 151,
-    "blue": 111,
-    "coverage": 0.6219
-  },
-  "emojis/161.png": {
-    "red": 184,
-    "green": 152,
-    "blue": 112,
-    "coverage": 0.6846
-  },
-  "emojis/162.png": {
-    "red": 186,
-    "green": 151,
-    "blue": 109,
-    "coverage": 0.6097
-  },
-  "emojis/163.png": {
-    "red": 222,
-    "green": 222,
-    "blue": 222,
-    "coverage": 0.5801
-  },
-  "emojis/164.png": {
-    "red": 140,
-    "green": 88,
-    "blue": 51,
-    "coverage": 0.5801
-  },
-  "emojis/165.png": {
-    "red": 228,
-    "green": 183,
-    "blue": 70,
-    "coverage": 0.6696
-  },
-  "emojis/166.png": {
-    "red": 217,
-    "green": 182,
-    "blue": 53,
-    "coverage": 0.6556
-  },
-  "emojis/167.png": {
-    "red": 235,
     "green": 180,
-    "blue": 65,
-    "coverage": 0.6507
-  },
-  "emojis/168.png": {
-    "red": 215,
-    "green": 168,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/169.png": {
-    "red": 240,
-    "green": 189,
-    "blue": 58,
-    "coverage": 0.6683
-  },
-  "emojis/17.png": {
-    "red": 195,
-    "green": 168,
-    "blue": 144,
-    "coverage": 0.4656
-  },
-  "emojis/170.png": {
-    "red": 224,
-    "green": 182,
-    "blue": 91,
-    "coverage": 0.6577
-  },
-  "emojis/171.png": {
-    "red": 121,
-    "green": 155,
-    "blue": 158,
-    "coverage": 0.6182
-  },
-  "emojis/172.png": {
-    "red": 238,
-    "green": 173,
-    "blue": 55,
-    "coverage": 0.7254
-  },
-  "emojis/173.png": {
-    "red": 179,
-    "green": 137,
-    "blue": 53,
-    "coverage": 0.6083
-  },
-  "emojis/174.png": {
-    "red": 210,
-    "green": 161,
-    "blue": 143,
-    "coverage": 0.716
-  },
-  "emojis/175.png": {
-    "red": 146,
-    "green": 172,
-    "blue": 28,
-    "coverage": 0.6492
-  },
-  "emojis/176.png": {
-    "red": 217,
-    "green": 179,
-    "blue": 75,
-    "coverage": 0.6596
-  },
-  "emojis/177.png": {
-    "red": 232,
-    "green": 184,
-    "blue": 58,
-    "coverage": 0.6509
-  },
-  "emojis/178.png": {
-    "red": 235,
-    "green": 184,
-    "blue": 58,
-    "coverage": 0.6572
-  },
-  "emojis/179.png": {
-    "red": 232,
-    "green": 192,
-    "blue": 86,
-    "coverage": 0.6792
-  },
-  "emojis/18.png": {
-    "red": 66,
-    "green": 65,
-    "blue": 65,
-    "coverage": 0.4613
-  },
-  "emojis/180.png": {
-    "red": 236,
-    "green": 182,
-    "blue": 53,
-    "coverage": 0.6489
-  },
-  "emojis/181.png": {
-    "red": 218,
-    "green": 171,
-    "blue": 77,
-    "coverage": 0.6669
-  },
-  "emojis/182.png": {
-    "red": 224,
-    "green": 173,
-    "blue": 93,
-    "coverage": 0.6564
-  },
-  "emojis/183.png": {
-    "red": 241,
-    "green": 181,
-    "blue": 57,
-    "coverage": 0.6562
-  },
-  "emojis/184.png": {
-    "red": 191,
-    "green": 117,
-    "blue": 57,
-    "coverage": 0.6532
-  },
-  "emojis/185.png": {
-    "red": 173,
-    "green": 176,
-    "blue": 40,
-    "coverage": 0.6583
-  },
-  "emojis/186.png": {
-    "red": 222,
-    "green": 163,
-    "blue": 66,
-    "coverage": 0.6772
-  },
-  "emojis/187.png": {
-    "red": 238,
-    "green": 158,
-    "blue": 55,
-    "coverage": 0.7336
-  },
-  "emojis/188.png": {
-    "red": 227,
-    "green": 176,
-    "blue": 55,
-    "coverage": 0.6533
-  },
-  "emojis/189.png": {
-    "red": 226,
-    "green": 187,
-    "blue": 72,
-    "coverage": 0.6498
-  },
-  "emojis/19.png": {
-    "red": 133,
-    "green": 159,
-    "blue": 71,
-    "coverage": 0.4758
-  },
-  "emojis/190.png": {
-    "red": 229,
-    "green": 191,
-    "blue": 76,
-    "coverage": 0.6463
-  },
-  "emojis/191.png": {
-    "red": 220,
-    "green": 169,
-    "blue": 73,
-    "coverage": 0.7263
-  },
-  "emojis/192.png": {
-    "red": 234,
-    "green": 177,
-    "blue": 51,
-    "coverage": 0.649
-  },
-  "emojis/193.png": {
-    "red": 223,
-    "green": 127,
-    "blue": 63,
-    "coverage": 0.661
-  },
-  "emojis/194.png": {
-    "red": 102,
-    "green": 167,
-    "blue": 226,
-    "coverage": 0.6702
-  },
-  "emojis/195.png": {
-    "red": 193,
-    "green": 148,
-    "blue": 48,
-    "coverage": 0.6464
-  },
-  "emojis/196.png": {
-    "red": 216,
-    "green": 173,
-    "blue": 71,
-    "coverage": 0.6436
-  },
-  "emojis/197.png": {
-    "red": 219,
-    "green": 175,
-    "blue": 68,
-    "coverage": 0.6336
-  },
-  "emojis/198.png": {
-    "red": 199,
-    "green": 131,
-    "blue": 34,
-    "coverage": 0.684
-  },
-  "emojis/199.png": {
-    "red": 130,
-    "green": 92,
-    "blue": 84,
-    "coverage": 0.6437
+    "blue": 64,
+    "coverage": 0.6495
   },
   "emojis/2.png": {
-    "red": 176,
-    "green": 178,
-    "blue": 179,
-    "coverage": 0.6073
-  },
-  "emojis/20.png": {
-    "red": 89,
-    "green": 124,
-    "blue": 87,
-    "coverage": 0.4839
-  },
-  "emojis/200.png": {
-    "red": 194,
-    "green": 144,
-    "blue": 209,
-    "coverage": 0.4957
-  },
-  "emojis/201.png": {
-    "red": 79,
-    "green": 68,
-    "blue": 59,
-    "coverage": 0.4296
-  },
-  "emojis/202.png": {
-    "red": 137,
-    "green": 126,
-    "blue": 113,
-    "coverage": 0.3878
-  },
-  "emojis/203.png": {
-    "red": 97,
-    "green": 75,
-    "blue": 59,
-    "coverage": 0.4813
-  },
-  "emojis/204.png": {
-    "red": 138,
-    "green": 112,
-    "blue": 91,
-    "coverage": 0.4502
-  },
-  "emojis/205.png": {
-    "red": 199,
-    "green": 112,
-    "blue": 29,
-    "coverage": 0.6106
-  },
-  "emojis/206.png": {
-    "red": 151,
-    "green": 111,
-    "blue": 76,
-    "coverage": 0.3071
-  },
-  "emojis/207.png": {
-    "red": 98,
-    "green": 96,
-    "blue": 96,
-    "coverage": 0.5618
-  },
-  "emojis/208.png": {
-    "red": 76,
-    "green": 139,
+    "red": 225,
+    "green": 176,
     "blue": 61,
-    "coverage": 0.2489
-  },
-  "emojis/209.png": {
-    "red": 117,
-    "green": 112,
-    "blue": 109,
-    "coverage": 0.4048
-  },
-  "emojis/21.png": {
-    "red": 164,
-    "green": 123,
-    "blue": 79,
-    "coverage": 0.5243
-  },
-  "emojis/210.png": {
-    "red": 180,
-    "green": 128,
-    "blue": 55,
-    "coverage": 0.2254
-  },
-  "emojis/211.png": {
-    "red": 95,
-    "green": 91,
-    "blue": 87,
-    "coverage": 0.3485
-  },
-  "emojis/212.png": {
-    "red": 132,
-    "green": 102,
-    "blue": 78,
-    "coverage": 0.4533
-  },
-  "emojis/213.png": {
-    "red": 53,
-    "green": 118,
-    "blue": 142,
-    "coverage": 0.3219
-  },
-  "emojis/214.png": {
-    "red": 85,
-    "green": 127,
-    "blue": 25,
-    "coverage": 0.3464
-  },
-  "emojis/215.png": {
-    "red": 163,
-    "green": 123,
-    "blue": 79,
-    "coverage": 0.2272
-  },
-  "emojis/216.png": {
-    "red": 214,
-    "green": 201,
-    "blue": 168,
-    "coverage": 0.3226
-  },
-  "emojis/217.png": {
-    "red": 73,
-    "green": 131,
-    "blue": 85,
-    "coverage": 0.5274
-  },
-  "emojis/218.png": {
-    "red": 124,
-    "green": 123,
-    "blue": 121,
-    "coverage": 0.3532
-  },
-  "emojis/219.png": {
-    "red": 127,
-    "green": 135,
-    "blue": 44,
-    "coverage": 0.3715
-  },
-  "emojis/22.png": {
-    "red": 124,
-    "green": 143,
-    "blue": 55,
-    "coverage": 0.3839
-  },
-  "emojis/220.png": {
-    "red": 106,
-    "green": 101,
-    "blue": 93,
-    "coverage": 0.3506
-  },
-  "emojis/221.png": {
-    "red": 102,
-    "green": 90,
-    "blue": 72,
-    "coverage": 0.3237
-  },
-  "emojis/222.png": {
-    "red": 123,
-    "green": 91,
-    "blue": 66,
-    "coverage": 0.4665
-  },
-  "emojis/223.png": {
-    "red": 175,
-    "green": 131,
-    "blue": 93,
-    "coverage": 0.4183
-  },
-  "emojis/224.png": {
-    "red": 94,
-    "green": 76,
-    "blue": 47,
-    "coverage": 0.6989
-  },
-  "emojis/225.png": {
-    "red": 152,
-    "green": 76,
-    "blue": 40,
-    "coverage": 0.6176
-  },
-  "emojis/226.png": {
-    "red": 86,
-    "green": 82,
-    "blue": 75,
-    "coverage": 0.4699
-  },
-  "emojis/227.png": {
-    "red": 219,
-    "green": 96,
-    "blue": 99,
-    "coverage": 0.1687
-  },
-  "emojis/228.png": {
-    "red": 124,
-    "green": 94,
-    "blue": 70,
-    "coverage": 0.5877
-  },
-  "emojis/229.png": {
-    "red": 100,
-    "green": 81,
-    "blue": 71,
-    "coverage": 0.4538
-  },
-  "emojis/23.png": {
-    "red": 85,
-    "green": 78,
-    "blue": 42,
-    "coverage": 0.3115
-  },
-  "emojis/230.png": {
-    "red": 179,
-    "green": 144,
-    "blue": 87,
-    "coverage": 0.3961
-  },
-  "emojis/231.png": {
-    "red": 232,
-    "green": 181,
-    "blue": 63,
-    "coverage": 0.6521
-  },
-  "emojis/232.png": {
-    "red": 242,
-    "green": 139,
-    "blue": 29,
-    "coverage": 0.5801
-  },
-  "emojis/233.png": {
-    "red": 164,
-    "green": 119,
-    "blue": 59,
-    "coverage": 0.5829
-  },
-  "emojis/234.png": {
-    "red": 111,
-    "green": 210,
-    "blue": 241,
-    "coverage": 0.5761
-  },
-  "emojis/235.png": {
-    "red": 146,
-    "green": 146,
-    "blue": 146,
-    "coverage": 0.5761
-  },
-  "emojis/236.png": {
-    "red": 230,
-    "green": 61,
-    "blue": 163,
-    "coverage": 0.5761
-  },
-  "emojis/237.png": {
-    "red": 205,
-    "green": 192,
-    "blue": 174,
-    "coverage": 0.2696
-  },
-  "emojis/238.png": {
-    "red": 135,
-    "green": 89,
-    "blue": 62,
-    "coverage": 0.3744
-  },
-  "emojis/239.png": {
-    "red": 123,
-    "green": 122,
-    "blue": 120,
-    "coverage": 0.3348
-  },
-  "emojis/24.png": {
-    "red": 184,
-    "green": 179,
-    "blue": 167,
-    "coverage": 0.5187
-  },
-  "emojis/240.png": {
-    "red": 241,
-    "green": 192,
-    "blue": 61,
-    "coverage": 0.7111
-  },
-  "emojis/241.png": {
-    "red": 235,
-    "green": 181,
-    "blue": 57,
-    "coverage": 0.4512
-  },
-  "emojis/242.png": {
-    "red": 238,
-    "green": 178,
-    "blue": 57,
-    "coverage": 0.6563
-  },
-  "emojis/243.png": {
-    "red": 230,
-    "green": 183,
-    "blue": 61,
-    "coverage": 0.6873
-  },
-  "emojis/244.png": {
-    "red": 238,
-    "green": 185,
-    "blue": 57,
-    "coverage": 0.6436
-  },
-  "emojis/245.png": {
-    "red": 206,
-    "green": 146,
-    "blue": 32,
-    "coverage": 0.1414
-  },
-  "emojis/246.png": {
-    "red": 229,
-    "green": 177,
-    "blue": 56,
-    "coverage": 0.6433
-  },
-  "emojis/25.png": {
-    "red": 147,
-    "green": 126,
-    "blue": 101,
-    "coverage": 0.3365
-  },
-  "emojis/26.png": {
-    "red": 187,
-    "green": 185,
-    "blue": 176,
-    "coverage": 0.5119
-  },
-  "emojis/27.png": {
-    "red": 175,
-    "green": 138,
-    "blue": 91,
-    "coverage": 0.5019
-  },
-  "emojis/28.png": {
-    "red": 198,
-    "green": 173,
-    "blue": 163,
-    "coverage": 0.3671
-  },
-  "emojis/29.png": {
-    "red": 216,
-    "green": 165,
-    "blue": 139,
-    "coverage": 0.4865
+    "coverage": 0.6495
   },
   "emojis/3.png": {
-    "red": 240,
-    "green": 188,
-    "blue": 57,
-    "coverage": 0.649
-  },
-  "emojis/30.png": {
-    "red": 175,
-    "green": 127,
-    "blue": 79,
-    "coverage": 0.4148
-  },
-  "emojis/31.png": {
-    "red": 56,
-    "green": 46,
-    "blue": 42,
-    "coverage": 0.479
-  },
-  "emojis/32.png": {
-    "red": 221,
-    "green": 179,
-    "blue": 156,
-    "coverage": 0.3874
-  },
-  "emojis/33.png": {
-    "red": 102,
-    "green": 82,
-    "blue": 69,
-    "coverage": 0.4754
-  },
-  "emojis/34.png": {
-    "red": 124,
-    "green": 126,
-    "blue": 123,
-    "coverage": 0.4065
-  },
-  "emojis/35.png": {
-    "red": 223,
-    "green": 194,
-    "blue": 118,
-    "coverage": 0.5946
-  },
-  "emojis/36.png": {
-    "red": 224,
-    "green": 185,
-    "blue": 55,
-    "coverage": 0.4816
-  },
-  "emojis/37.png": {
-    "red": 232,
-    "green": 182,
-    "blue": 51,
-    "coverage": 0.4599
-  },
-  "emojis/38.png": {
-    "red": 65,
-    "green": 62,
-    "blue": 66,
-    "coverage": 0.2935
-  },
-  "emojis/39.png": {
-    "red": 137,
-    "green": 159,
-    "blue": 161,
-    "coverage": 0.4869
-  },
-  "emojis/4.png": {
-    "red": 238,
-    "green": 181,
-    "blue": 53,
-    "coverage": 0.649
-  },
-  "emojis/40.png": {
-    "red": 118,
-    "green": 105,
-    "blue": 88,
-    "coverage": 0.483
-  },
-  "emojis/41.png": {
-    "red": 141,
-    "green": 124,
-    "blue": 119,
-    "coverage": 0.6282
-  },
-  "emojis/42.png": {
-    "red": 178,
-    "green": 178,
-    "blue": 178,
-    "coverage": 0.4593
-  },
-  "emojis/43.png": {
-    "red": 168,
-    "green": 119,
-    "blue": 71,
-    "coverage": 0.3012
-  },
-  "emojis/44.png": {
-    "red": 173,
-    "green": 120,
-    "blue": 80,
-    "coverage": 0.3715
-  },
-  "emojis/45.png": {
-    "red": 186,
-    "green": 176,
-    "blue": 184,
-    "coverage": 0.6116
-  },
-  "emojis/46.png": {
-    "red": 197,
-    "green": 183,
-    "blue": 170,
-    "coverage": 0.5204
-  },
-  "emojis/47.png": {
-    "red": 184,
-    "green": 157,
-    "blue": 42,
-    "coverage": 0.5867
-  },
-  "emojis/48.png": {
-    "red": 191,
-    "green": 178,
-    "blue": 179,
-    "coverage": 0.5136
-  },
-  "emojis/49.png": {
-    "red": 218,
-    "green": 178,
-    "blue": 53,
-    "coverage": 0.5366
-  },
-  "emojis/5.png": {
-    "red": 200,
-    "green": 39,
-    "blue": 39,
-    "coverage": 0.5935
-  },
-  "emojis/50.png": {
-    "red": 149,
-    "green": 161,
-    "blue": 46,
-    "coverage": 0.6163
-  },
-  "emojis/51.png": {
-    "red": 142,
-    "green": 124,
-    "blue": 83,
-    "coverage": 0.4765
-  },
-  "emojis/52.png": {
-    "red": 184,
-    "green": 151,
-    "blue": 110,
-    "coverage": 0.6438
-  },
-  "emojis/53.png": {
-    "red": 192,
-    "green": 167,
-    "blue": 137,
-    "coverage": 0.5793
-  },
-  "emojis/54.png": {
-    "red": 213,
-    "green": 161,
-    "blue": 152,
-    "coverage": 0.6275
-  },
-  "emojis/55.png": {
-    "red": 122,
-    "green": 163,
-    "blue": 79,
-    "coverage": 0.6012
-  },
-  "emojis/56.png": {
-    "red": 216,
-    "green": 170,
-    "blue": 154,
-    "coverage": 0.6748
-  },
-  "emojis/57.png": {
-    "red": 114,
-    "green": 113,
-    "blue": 113,
-    "coverage": 0.4704
-  },
-  "emojis/58.png": {
-    "red": 127,
-    "green": 88,
-    "blue": 52,
-    "coverage": 0.6199
-  },
-  "emojis/59.png": {
-    "red": 180,
-    "green": 182,
-    "blue": 185,
-    "coverage": 0.6017
-  },
-  "emojis/6.png": {
-    "red": 238,
-    "green": 65,
-    "blue": 54,
-    "coverage": 0.2854
-  },
-  "emojis/60.png": {
-    "red": 168,
-    "green": 168,
-    "blue": 168,
-    "coverage": 0.6541
-  },
-  "emojis/61.png": {
-    "red": 196,
-    "green": 123,
-    "blue": 140,
-    "coverage": 0.5196
-  },
-  "emojis/62.png": {
-    "red": 138,
-    "green": 94,
-    "blue": 44,
-    "coverage": 0.6058
-  },
-  "emojis/63.png": {
-    "red": 152,
-    "green": 63,
-    "blue": 48,
-    "coverage": 0.7266
-  },
-  "emojis/64.png": {
-    "red": 173,
-    "green": 57,
-    "blue": 45,
-    "coverage": 0.5546
-  },
-  "emojis/65.png": {
-    "red": 177,
-    "green": 169,
-    "blue": 174,
-    "coverage": 0.6155
-  },
-  "emojis/66.png": {
-    "red": 130,
-    "green": 145,
-    "blue": 146,
-    "coverage": 0.589
-  },
-  "emojis/67.png": {
-    "red": 80,
-    "green": 64,
-    "blue": 102,
-    "coverage": 0.5326
-  },
-  "emojis/68.png": {
-    "red": 140,
-    "green": 61,
-    "blue": 156,
-    "coverage": 0.7017
-  },
-  "emojis/69.png": {
-    "red": 185,
-    "green": 188,
-    "blue": 189,
-    "coverage": 0.5722
-  },
-  "emojis/7.png": {
-    "red": 246,
-    "green": 95,
-    "blue": 53,
-    "coverage": 0.5297
-  },
-  "emojis/70.png": {
-    "red": 214,
-    "green": 37,
-    "blue": 37,
-    "coverage": 0.3437
-  },
-  "emojis/71.png": {
-    "red": 219,
-    "green": 181,
-    "blue": 182,
-    "coverage": 0.6201
-  },
-  "emojis/72.png": {
-    "red": 233,
-    "green": 63,
-    "blue": 163,
-    "coverage": 0.3836
-  },
-  "emojis/73.png": {
-    "red": 225,
-    "green": 61,
-    "blue": 50,
-    "coverage": 0.4856
-  },
-  "emojis/74.png": {
-    "red": 232,
-    "green": 65,
-    "blue": 162,
-    "coverage": 0.3735
-  },
-  "emojis/75.png": {
-    "red": 234,
-    "green": 87,
-    "blue": 147,
-    "coverage": 0.5968
-  },
-  "emojis/76.png": {
-    "red": 220,
-    "green": 84,
-    "blue": 155,
-    "coverage": 0.3965
-  },
-  "emojis/77.png": {
-    "red": 191,
-    "green": 84,
-    "blue": 168,
-    "coverage": 0.4684
-  },
-  "emojis/78.png": {
-    "red": 34,
-    "green": 118,
-    "blue": 245,
-    "coverage": 0.5801
-  },
-  "emojis/79.png": {
-    "red": 75,
-    "green": 199,
-    "blue": 62,
-    "coverage": 0.5802
-  },
-  "emojis/8.png": {
-    "red": 219,
-    "green": 115,
-    "blue": 108,
-    "coverage": 0.5832
-  },
-  "emojis/80.png": {
-    "red": 248,
-    "green": 199,
-    "blue": 79,
-    "coverage": 0.5801
-  },
-  "emojis/81.png": {
-    "red": 185,
-    "green": 83,
-    "blue": 243,
-    "coverage": 0.5841
-  },
-  "emojis/82.png": {
-    "red": 232,
-    "green": 131,
-    "blue": 101,
-    "coverage": 0.6266
-  },
-  "emojis/83.png": {
-    "red": 228,
-    "green": 66,
-    "blue": 161,
-    "coverage": 0.4328
-  },
-  "emojis/84.png": {
-    "red": 183,
-    "green": 120,
-    "blue": 201,
-    "coverage": 0.9599
-  },
-  "emojis/85.png": {
-    "red": 138,
-    "green": 98,
-    "blue": 71,
-    "coverage": 0.4482
-  },
-  "emojis/86.png": {
-    "red": 246,
-    "green": 202,
-    "blue": 89,
-    "coverage": 0.2604
-  },
-  "emojis/87.png": {
-    "red": 187,
-    "green": 187,
-    "blue": 176,
-    "coverage": 0.3668
-  },
-  "emojis/88.png": {
-    "red": 54,
-    "green": 53,
-    "blue": 53,
-    "coverage": 0.5801
-  },
-  "emojis/89.png": {
-    "red": 228,
-    "green": 180,
-    "blue": 64,
-    "coverage": 0.649
-  },
-  "emojis/9.png": {
-    "red": 132,
-    "green": 121,
-    "blue": 111,
-    "coverage": 0.414
-  },
-  "emojis/90.png": {
-    "red": 227,
-    "green": 183,
-    "blue": 74,
-    "coverage": 0.649
-  },
-  "emojis/91.png": {
-    "red": 210,
-    "green": 179,
-    "blue": 84,
-    "coverage": 0.6733
-  },
-  "emojis/92.png": {
     "red": 226,
     "green": 178,
     "blue": 64,
-    "coverage": 0.649
+    "coverage": 0.6495
   },
-  "emojis/93.png": {
-    "red": 225,
-    "green": 176,
-    "blue": 61,
-    "coverage": 0.649
-  },
-  "emojis/94.png": {
+  "emojis/4.png": {
     "red": 227,
-    "green": 179,
-    "blue": 64,
-    "coverage": 0.649
+    "green": 183,
+    "blue": 74,
+    "coverage": 0.6495
   },
-  "emojis/95.png": {
+  "emojis/5.png": {
+    "red": 226,
+    "green": 178,
+    "blue": 63,
+    "coverage": 0.6495
+  },
+  "emojis/6.png": {
     "red": 213,
     "green": 177,
     "blue": 77,
-    "coverage": 0.654
+    "coverage": 0.6545
   },
-  "emojis/96.png": {
+  "emojis/7.png": {
+    "red": 217,
+    "green": 179,
+    "blue": 75,
+    "coverage": 0.6601
+  },
+  "emojis/8.png": {
+    "red": 210,
+    "green": 179,
+    "blue": 83,
+    "coverage": 0.6734
+  },
+  "emojis/9.png": {
+    "red": 241,
+    "green": 189,
+    "blue": 57,
+    "coverage": 0.6496
+  },
+  "emojis/10.png": {
+    "red": 241,
+    "green": 189,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/11.png": {
+    "red": 237,
+    "green": 184,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/12.png": {
+    "red": 237,
+    "green": 179,
+    "blue": 52,
+    "coverage": 0.6498
+  },
+  "emojis/13.png": {
     "red": 202,
     "green": 170,
     "blue": 84,
     "coverage": 0.7177
   },
+  "emojis/14.png": {
+    "red": 237,
+    "green": 158,
+    "blue": 55,
+    "coverage": 0.7346
+  },
+  "emojis/15.png": {
+    "red": 234,
+    "green": 154,
+    "blue": 55,
+    "coverage": 0.6503
+  },
+  "emojis/16.png": {
+    "red": 218,
+    "green": 171,
+    "blue": 77,
+    "coverage": 0.6665
+  },
+  "emojis/17.png": {
+    "red": 238,
+    "green": 176,
+    "blue": 58,
+    "coverage": 0.666
+  },
+  "emojis/18.png": {
+    "red": 242,
+    "green": 189,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/19.png": {
+    "red": 238,
+    "green": 180,
+    "blue": 53,
+    "coverage": 0.6495
+  },
+  "emojis/20.png": {
+    "red": 238,
+    "green": 181,
+    "blue": 54,
+    "coverage": 0.6495
+  },
+  "emojis/21.png": {
+    "red": 239,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6508
+  },
+  "emojis/22.png": {
+    "red": 228,
+    "green": 191,
+    "blue": 76,
+    "coverage": 0.6465
+  },
+  "emojis/23.png": {
+    "red": 238,
+    "green": 183,
+    "blue": 62,
+    "coverage": 0.6498
+  },
+  "emojis/24.png": {
+    "red": 236,
+    "green": 177,
+    "blue": 67,
+    "coverage": 0.6556
+  },
+  "emojis/25.png": {
+    "red": 230,
+    "green": 174,
+    "blue": 81,
+    "coverage": 0.6556
+  },
+  "emojis/26.png": {
+    "red": 224,
+    "green": 173,
+    "blue": 93,
+    "coverage": 0.6564
+  },
+  "emojis/27.png": {
+    "red": 235,
+    "green": 175,
+    "blue": 66,
+    "coverage": 0.6556
+  },
+  "emojis/28.png": {
+    "red": 217,
+    "green": 182,
+    "blue": 53,
+    "coverage": 0.6553
+  },
+  "emojis/29.png": {
+    "red": 236,
+    "green": 179,
+    "blue": 58,
+    "coverage": 0.6498
+  },
+  "emojis/30.png": {
+    "red": 240,
+    "green": 180,
+    "blue": 57,
+    "coverage": 0.6572
+  },
+  "emojis/31.png": {
+    "red": 240,
+    "green": 188,
+    "blue": 58,
+    "coverage": 0.6687
+  },
+  "emojis/32.png": {
+    "red": 228,
+    "green": 183,
+    "blue": 70,
+    "coverage": 0.6695
+  },
+  "emojis/33.png": {
+    "red": 236,
+    "green": 182,
+    "blue": 53,
+    "coverage": 0.65
+  },
+  "emojis/34.png": {
+    "red": 239,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/35.png": {
+    "red": 240,
+    "green": 187,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/36.png": {
+    "red": 243,
+    "green": 191,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/37.png": {
+    "red": 204,
+    "green": 144,
+    "blue": 31,
+    "coverage": 0.1418
+  },
+  "emojis/38.png": {
+    "red": 224,
+    "green": 213,
+    "blue": 174,
+    "coverage": 0.7352
+  },
+  "emojis/39.png": {
+    "red": 237,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/40.png": {
+    "red": 237,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/41.png": {
+    "red": 229,
+    "green": 188,
+    "blue": 90,
+    "coverage": 0.6495
+  },
+  "emojis/42.png": {
+    "red": 232,
+    "green": 187,
+    "blue": 76,
+    "coverage": 0.6495
+  },
+  "emojis/43.png": {
+    "red": 236,
+    "green": 192,
+    "blue": 76,
+    "coverage": 0.6432
+  },
+  "emojis/44.png": {
+    "red": 235,
+    "green": 183,
+    "blue": 58,
+    "coverage": 0.6577
+  },
+  "emojis/45.png": {
+    "red": 236,
+    "green": 184,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/46.png": {
+    "red": 237,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/47.png": {
+    "red": 219,
+    "green": 186,
+    "blue": 76,
+    "coverage": 0.6668
+  },
+  "emojis/48.png": {
+    "red": 232,
+    "green": 184,
+    "blue": 58,
+    "coverage": 0.6512
+  },
+  "emojis/49.png": {
+    "red": 224,
+    "green": 178,
+    "blue": 63,
+    "coverage": 0.6705
+  },
+  "emojis/50.png": {
+    "red": 232,
+    "green": 193,
+    "blue": 106,
+    "coverage": 0.6479
+  },
+  "emojis/51.png": {
+    "red": 235,
+    "green": 179,
+    "blue": 65,
+    "coverage": 0.6506
+  },
+  "emojis/52.png": {
+    "red": 224,
+    "green": 182,
+    "blue": 91,
+    "coverage": 0.6568
+  },
+  "emojis/53.png": {
+    "red": 146,
+    "green": 172,
+    "blue": 27,
+    "coverage": 0.6495
+  },
+  "emojis/54.png": {
+    "red": 173,
+    "green": 176,
+    "blue": 40,
+    "coverage": 0.6582
+  },
+  "emojis/55.png": {
+    "red": 232,
+    "green": 192,
+    "blue": 86,
+    "coverage": 0.6793
+  },
+  "emojis/56.png": {
+    "red": 223,
+    "green": 127,
+    "blue": 63,
+    "coverage": 0.6614
+  },
+  "emojis/57.png": {
+    "red": 102,
+    "green": 167,
+    "blue": 226,
+    "coverage": 0.6707
+  },
+  "emojis/58.png": {
+    "red": 234,
+    "green": 177,
+    "blue": 51,
+    "coverage": 0.6495
+  },
+  "emojis/59.png": {
+    "red": 224,
+    "green": 170,
+    "blue": 53,
+    "coverage": 0.6514
+  },
+  "emojis/60.png": {
+    "red": 222,
+    "green": 162,
+    "blue": 65,
+    "coverage": 0.6773
+  },
+  "emojis/61.png": {
+    "red": 179,
+    "green": 137,
+    "blue": 53,
+    "coverage": 0.6082
+  },
+  "emojis/62.png": {
+    "red": 220,
+    "green": 169,
+    "blue": 72,
+    "coverage": 0.7267
+  },
+  "emojis/63.png": {
+    "red": 193,
+    "green": 148,
+    "blue": 48,
+    "coverage": 0.6467
+  },
+  "emojis/64.png": {
+    "red": 195,
+    "green": 152,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/65.png": {
+    "red": 215,
+    "green": 168,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/66.png": {
+    "red": 232,
+    "green": 181,
+    "blue": 63,
+    "coverage": 0.6527
+  },
+  "emojis/67.png": {
+    "red": 241,
+    "green": 189,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/68.png": {
+    "red": 238,
+    "green": 185,
+    "blue": 57,
+    "coverage": 0.6432
+  },
+  "emojis/69.png": {
+    "red": 237,
+    "green": 184,
+    "blue": 54,
+    "coverage": 0.6508
+  },
+  "emojis/70.png": {
+    "red": 240,
+    "green": 187,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/71.png": {
+    "red": 240,
+    "green": 188,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/72.png": {
+    "red": 238,
+    "green": 186,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/73.png": {
+    "red": 238,
+    "green": 185,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/74.png": {
+    "red": 234,
+    "green": 181,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/75.png": {
+    "red": 225,
+    "green": 178,
+    "blue": 85,
+    "coverage": 0.6495
+  },
+  "emojis/76.png": {
+    "red": 219,
+    "green": 175,
+    "blue": 68,
+    "coverage": 0.6335
+  },
+  "emojis/77.png": {
+    "red": 216,
+    "green": 173,
+    "blue": 71,
+    "coverage": 0.6432
+  },
+  "emojis/78.png": {
+    "red": 238,
+    "green": 187,
+    "blue": 56,
+    "coverage": 0.6508
+  },
+  "emojis/79.png": {
+    "red": 235,
+    "green": 183,
+    "blue": 54,
+    "coverage": 0.6495
+  },
+  "emojis/80.png": {
+    "red": 185,
+    "green": 160,
+    "blue": 104,
+    "coverage": 0.6495
+  },
+  "emojis/81.png": {
+    "red": 175,
+    "green": 164,
+    "blue": 121,
+    "coverage": 0.6584
+  },
+  "emojis/82.png": {
+    "red": 226,
+    "green": 188,
+    "blue": 72,
+    "coverage": 0.6584
+  },
+  "emojis/83.png": {
+    "red": 226,
+    "green": 187,
+    "blue": 72,
+    "coverage": 0.6502
+  },
+  "emojis/84.png": {
+    "red": 202,
+    "green": 177,
+    "blue": 91,
+    "coverage": 0.6498
+  },
+  "emojis/85.png": {
+    "red": 190,
+    "green": 163,
+    "blue": 113,
+    "coverage": 0.6961
+  },
+  "emojis/86.png": {
+    "red": 236,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/87.png": {
+    "red": 236,
+    "green": 184,
+    "blue": 55,
+    "coverage": 0.6495
+  },
+  "emojis/88.png": {
+    "red": 240,
+    "green": 189,
+    "blue": 57,
+    "coverage": 0.6495
+  },
+  "emojis/89.png": {
+    "red": 217,
+    "green": 184,
+    "blue": 78,
+    "coverage": 0.6645
+  },
+  "emojis/90.png": {
+    "red": 225,
+    "green": 173,
+    "blue": 52,
+    "coverage": 0.6495
+  },
+  "emojis/91.png": {
+    "red": 224,
+    "green": 171,
+    "blue": 50,
+    "coverage": 0.6495
+  },
+  "emojis/92.png": {
+    "red": 227,
+    "green": 176,
+    "blue": 55,
+    "coverage": 0.6535
+  },
+  "emojis/93.png": {
+    "red": 233,
+    "green": 193,
+    "blue": 89,
+    "coverage": 0.688
+  },
+  "emojis/94.png": {
+    "red": 234,
+    "green": 122,
+    "blue": 38,
+    "coverage": 0.6494
+  },
+  "emojis/95.png": {
+    "red": 238,
+    "green": 186,
+    "blue": 56,
+    "coverage": 0.6495
+  },
+  "emojis/96.png": {
+    "red": 191,
+    "green": 117,
+    "blue": 57,
+    "coverage": 0.6537
+  },
   "emojis/97.png": {
     "red": 139,
     "green": 60,
     "blue": 155,
-    "coverage": 0.7017
+    "coverage": 0.7018
   },
   "emojis/98.png": {
-    "red": 237,
-    "green": 185,
-    "blue": 56,
-    "coverage": 0.649
+    "red": 140,
+    "green": 61,
+    "blue": 156,
+    "coverage": 0.7018
   },
   "emojis/99.png": {
-    "red": 237,
-    "green": 179,
+    "red": 185,
+    "green": 188,
+    "blue": 189,
+    "coverage": 0.5729
+  },
+  "emojis/100.png": {
+    "red": 176,
+    "green": 178,
+    "blue": 179,
+    "coverage": 0.6075
+  },
+  "emojis/101.png": {
+    "red": 138,
+    "green": 98,
+    "blue": 71,
+    "coverage": 0.4479
+  },
+  "emojis/102.png": {
+    "red": 210,
+    "green": 160,
+    "blue": 143,
+    "coverage": 0.717
+  },
+  "emojis/103.png": {
+    "red": 152,
+    "green": 63,
+    "blue": 48,
+    "coverage": 0.727
+  },
+  "emojis/104.png": {
+    "red": 173,
+    "green": 57,
+    "blue": 45,
+    "coverage": 0.5553
+  },
+  "emojis/105.png": {
+    "red": 177,
+    "green": 168,
+    "blue": 174,
+    "coverage": 0.616
+  },
+  "emojis/106.png": {
+    "red": 130,
+    "green": 145,
+    "blue": 146,
+    "coverage": 0.5901
+  },
+  "emojis/107.png": {
+    "red": 79,
+    "green": 63,
+    "blue": 101,
+    "coverage": 0.5352
+  },
+  "emojis/108.png": {
+    "red": 121,
+    "green": 155,
+    "blue": 158,
+    "coverage": 0.6177
+  },
+  "emojis/109.png": {
+    "red": 195,
+    "green": 159,
+    "blue": 66,
+    "coverage": 0.5787
+  },
+  "emojis/110.png": {
+    "red": 193,
+    "green": 156,
+    "blue": 65,
+    "coverage": 0.5774
+  },
+  "emojis/111.png": {
+    "red": 174,
+    "green": 163,
+    "blue": 97,
+    "coverage": 0.615
+  },
+  "emojis/112.png": {
+    "red": 203,
+    "green": 137,
+    "blue": 55,
+    "coverage": 0.5774
+  },
+  "emojis/113.png": {
+    "red": 201,
+    "green": 162,
+    "blue": 60,
+    "coverage": 0.5776
+  },
+  "emojis/114.png": {
+    "red": 205,
+    "green": 159,
+    "blue": 60,
+    "coverage": 0.5778
+  },
+  "emojis/115.png": {
+    "red": 202,
+    "green": 167,
+    "blue": 78,
+    "coverage": 0.644
+  },
+  "emojis/116.png": {
+    "red": 192,
+    "green": 166,
+    "blue": 78,
+    "coverage": 0.577
+  },
+  "emojis/117.png": {
+    "red": 197,
+    "green": 158,
+    "blue": 59,
+    "coverage": 0.5766
+  },
+  "emojis/118.png": {
+    "red": 186,
+    "green": 150,
+    "blue": 111,
+    "coverage": 0.6217
+  },
+  "emojis/119.png": {
+    "red": 184,
+    "green": 152,
+    "blue": 112,
+    "coverage": 0.6852
+  },
+  "emojis/120.png": {
+    "red": 185,
+    "green": 150,
+    "blue": 109,
+    "coverage": 0.6096
+  },
+  "emojis/121.png": {
+    "red": 213,
+    "green": 36,
+    "blue": 37,
+    "coverage": 0.3441
+  },
+  "emojis/122.png": {
+    "red": 219,
+    "green": 181,
+    "blue": 181,
+    "coverage": 0.6132
+  },
+  "emojis/123.png": {
+    "red": 191,
+    "green": 83,
+    "blue": 168,
+    "coverage": 0.469
+  },
+  "emojis/124.png": {
+    "red": 232,
+    "green": 131,
+    "blue": 101,
+    "coverage": 0.6272
+  },
+  "emojis/125.png": {
+    "red": 234,
+    "green": 87,
+    "blue": 147,
+    "coverage": 0.5968
+  },
+  "emojis/126.png": {
+    "red": 220,
+    "green": 84,
+    "blue": 156,
+    "coverage": 0.3938
+  },
+  "emojis/127.png": {
+    "red": 232,
+    "green": 63,
+    "blue": 162,
+    "coverage": 0.3838
+  },
+  "emojis/128.png": {
+    "red": 227,
+    "green": 66,
+    "blue": 161,
+    "coverage": 0.4328
+  },
+  "emojis/129.png": {
+    "red": 231,
+    "green": 65,
+    "blue": 162,
+    "coverage": 0.3736
+  },
+  "emojis/130.png": {
+    "red": 183,
+    "green": 119,
+    "blue": 201,
+    "coverage": 0.9609
+  },
+  "emojis/131.png": {
+    "red": 238,
+    "green": 65,
+    "blue": 54,
+    "coverage": 0.2857
+  },
+  "emojis/132.png": {
+    "red": 225,
+    "green": 61,
+    "blue": 50,
+    "coverage": 0.4859
+  },
+  "emojis/133.png": {
+    "red": 246,
+    "green": 95,
+    "blue": 53,
+    "coverage": 0.5301
+  },
+  "emojis/134.png": {
+    "red": 219,
+    "green": 114,
+    "blue": 108,
+    "coverage": 0.5834
+  },
+  "emojis/135.png": {
+    "red": 239,
+    "green": 67,
+    "blue": 55,
+    "coverage": 0.5804
+  },
+  "emojis/136.png": {
+    "red": 242,
+    "green": 139,
+    "blue": 29,
+    "coverage": 0.5807
+  },
+  "emojis/137.png": {
+    "red": 248,
+    "green": 199,
+    "blue": 79,
+    "coverage": 0.5803
+  },
+  "emojis/138.png": {
+    "red": 75,
+    "green": 199,
+    "blue": 62,
+    "coverage": 0.5807
+  },
+  "emojis/139.png": {
+    "red": 34,
+    "green": 118,
+    "blue": 244,
+    "coverage": 0.5807
+  },
+  "emojis/140.png": {
+    "red": 185,
+    "green": 82,
+    "blue": 243,
+    "coverage": 0.5838
+  },
+  "emojis/141.png": {
+    "red": 140,
+    "green": 88,
+    "blue": 51,
+    "coverage": 0.5806
+  },
+  "emojis/142.png": {
+    "red": 54,
+    "green": 53,
+    "blue": 53,
+    "coverage": 0.5807
+  },
+  "emojis/143.png": {
+    "red": 222,
+    "green": 222,
+    "blue": 222,
+    "coverage": 0.5806
+  },
+  "emojis/144.png": {
+    "red": 217,
+    "green": 3,
+    "blue": 0,
+    "coverage": 0.2459
+  },
+  "emojis/145.png": {
+    "red": 213,
+    "green": 6,
+    "blue": 6,
+    "coverage": 0.2642
+  },
+  "emojis/146.png": {
+    "red": 241,
+    "green": 121,
+    "blue": 75,
+    "coverage": 0.3071
+  },
+  "emojis/147.png": {
+    "red": 245,
+    "green": 202,
+    "blue": 89,
+    "coverage": 0.2595
+  },
+  "emojis/148.png": {
+    "red": 85,
+    "green": 195,
+    "blue": 243,
+    "coverage": 0.418
+  },
+  "emojis/149.png": {
+    "red": 180,
+    "green": 199,
+    "blue": 219,
+    "coverage": 0.5492
+  },
+  "emojis/150.png": {
+    "red": 60,
+    "green": 60,
+    "blue": 60,
+    "coverage": 0.2822
+  },
+  "emojis/151.png": {
+    "red": 224,
+    "green": 224,
+    "blue": 224,
+    "coverage": 0.6914
+  },
+  "emojis/152.png": {
+    "red": 229,
+    "green": 230,
+    "blue": 230,
+    "coverage": 0.5559
+  },
+  "emojis/153.png": {
+    "red": 4,
+    "green": 81,
+    "blue": 195,
+    "coverage": 0.2139
+  },
+  "emojis/154.png": {
+    "red": 233,
+    "green": 180,
+    "blue": 55,
+    "coverage": 0.5134
+  },
+  "emojis/155.png": {
+    "red": 241,
+    "green": 185,
+    "blue": 69,
+    "coverage": 0.4527
+  },
+  "emojis/156.png": {
+    "red": 244,
+    "green": 188,
     "blue": 52,
-    "coverage": 0.6494
+    "coverage": 0.4623
+  },
+  "emojis/157.png": {
+    "red": 243,
+    "green": 187,
+    "blue": 52,
+    "coverage": 0.4568
+  },
+  "emojis/158.png": {
+    "red": 243,
+    "green": 187,
+    "blue": 52,
+    "coverage": 0.452
+  },
+  "emojis/159.png": {
+    "red": 240,
+    "green": 193,
+    "blue": 62,
+    "coverage": 0.4613
+  },
+  "emojis/160.png": {
+    "red": 238,
+    "green": 189,
+    "blue": 55,
+    "coverage": 0.4576
+  },
+  "emojis/161.png": {
+    "red": 231,
+    "green": 179,
+    "blue": 45,
+    "coverage": 0.254
+  },
+  "emojis/162.png": {
+    "red": 232,
+    "green": 181,
+    "blue": 47,
+    "coverage": 0.2538
+  },
+  "emojis/163.png": {
+    "red": 242,
+    "green": 188,
+    "blue": 60,
+    "coverage": 0.3908
+  },
+  "emojis/164.png": {
+    "red": 241,
+    "green": 186,
+    "blue": 72,
+    "coverage": 0.47
+  },
+  "emojis/165.png": {
+    "red": 236,
+    "green": 177,
+    "blue": 48,
+    "coverage": 0.3276
+  },
+  "emojis/166.png": {
+    "red": 241,
+    "green": 184,
+    "blue": 51,
+    "coverage": 0.4096
+  },
+  "emojis/167.png": {
+    "red": 240,
+    "green": 183,
+    "blue": 50,
+    "coverage": 0.3944
+  },
+  "emojis/168.png": {
+    "red": 245,
+    "green": 192,
+    "blue": 62,
+    "coverage": 0.4346
+  },
+  "emojis/169.png": {
+    "red": 242,
+    "green": 185,
+    "blue": 51,
+    "coverage": 0.3992
+  },
+  "emojis/170.png": {
+    "red": 244,
+    "green": 189,
+    "blue": 56,
+    "coverage": 0.5002
+  },
+  "emojis/171.png": {
+    "red": 245,
+    "green": 190,
+    "blue": 55,
+    "coverage": 0.3303
+  },
+  "emojis/172.png": {
+    "red": 245,
+    "green": 190,
+    "blue": 55,
+    "coverage": 0.3303
+  },
+  "emojis/173.png": {
+    "red": 241,
+    "green": 184,
+    "blue": 50,
+    "coverage": 0.3302
+  },
+  "emojis/174.png": {
+    "red": 242,
+    "green": 184,
+    "blue": 51,
+    "coverage": 0.2832
+  },
+  "emojis/175.png": {
+    "red": 243,
+    "green": 185,
+    "blue": 51,
+    "coverage": 0.328
+  },
+  "emojis/176.png": {
+    "red": 240,
+    "green": 182,
+    "blue": 48,
+    "coverage": 0.3711
+  },
+  "emojis/177.png": {
+    "red": 226,
+    "green": 170,
+    "blue": 32,
+    "coverage": 0.6401
+  },
+  "emojis/178.png": {
+    "red": 244,
+    "green": 189,
+    "blue": 60,
+    "coverage": 0.5315
+  },
+  "emojis/179.png": {
+    "red": 240,
+    "green": 182,
+    "blue": 51,
+    "coverage": 0.5389
+  },
+  "emojis/180.png": {
+    "red": 237,
+    "green": 178,
+    "blue": 49,
+    "coverage": 0.6277
+  },
+  "emojis/181.png": {
+    "red": 239,
+    "green": 179,
+    "blue": 47,
+    "coverage": 0.5415
+  },
+  "emojis/182.png": {
+    "red": 241,
+    "green": 184,
+    "blue": 54,
+    "coverage": 0.4441
+  },
+  "emojis/183.png": {
+    "red": 241,
+    "green": 185,
+    "blue": 54,
+    "coverage": 0.4416
+  },
+  "emojis/184.png": {
+    "red": 232,
+    "green": 179,
+    "blue": 56,
+    "coverage": 0.4654
+  },
+  "emojis/185.png": {
+    "red": 234,
+    "green": 181,
+    "blue": 56,
+    "coverage": 0.4248
+  },
+  "emojis/186.png": {
+    "red": 225,
+    "green": 164,
+    "blue": 22,
+    "coverage": 0.2896
+  },
+  "emojis/187.png": {
+    "red": 242,
+    "green": 185,
+    "blue": 52,
+    "coverage": 0.305
+  },
+  "emojis/188.png": {
+    "red": 245,
+    "green": 193,
+    "blue": 48,
+    "coverage": 0.6117
+  },
+  "emojis/189.png": {
+    "red": 238,
+    "green": 185,
+    "blue": 49,
+    "coverage": 0.4213
+  },
+  "emojis/190.png": {
+    "red": 177,
+    "green": 158,
+    "blue": 93,
+    "coverage": 0.4346
+  },
+  "emojis/191.png": {
+    "red": 195,
+    "green": 145,
+    "blue": 43,
+    "coverage": 0.4736
+  },
+  "emojis/192.png": {
+    "red": 222,
+    "green": 158,
+    "blue": 100,
+    "coverage": 0.4493
+  },
+  "emojis/193.png": {
+    "red": 155,
+    "green": 149,
+    "blue": 127,
+    "coverage": 0.2787
+  },
+  "emojis/194.png": {
+    "red": 239,
+    "green": 180,
+    "blue": 44,
+    "coverage": 0.4671
+  },
+  "emojis/195.png": {
+    "red": 229,
+    "green": 174,
+    "blue": 53,
+    "coverage": 0.2205
+  },
+  "emojis/196.png": {
+    "red": 228,
+    "green": 167,
+    "blue": 41,
+    "coverage": 0.3587
+  },
+  "emojis/197.png": {
+    "red": 243,
+    "green": 189,
+    "blue": 55,
+    "coverage": 0.3833
+  },
+  "emojis/198.png": {
+    "red": 244,
+    "green": 193,
+    "blue": 52,
+    "coverage": 0.3558
+  },
+  "emojis/199.png": {
+    "red": 215,
+    "green": 130,
+    "blue": 155,
+    "coverage": 0.5958
+  },
+  "emojis/200.png": {
+    "red": 220,
+    "green": 209,
+    "blue": 192,
+    "coverage": 0.6566
+  },
+  "emojis/201.png": {
+    "red": 190,
+    "green": 191,
+    "blue": 192,
+    "coverage": 0.2948
+  },
+  "emojis/202.png": {
+    "red": 203,
+    "green": 195,
+    "blue": 185,
+    "coverage": 0.5263
+  },
+  "emojis/203.png": {
+    "red": 144,
+    "green": 127,
+    "blue": 114,
+    "coverage": 0.523
+  },
+  "emojis/204.png": {
+    "red": 185,
+    "green": 96,
+    "blue": 110,
+    "coverage": 0.5776
+  },
+  "emojis/205.png": {
+    "red": 176,
+    "green": 76,
+    "blue": 98,
+    "coverage": 0.3971
+  },
+  "emojis/206.png": {
+    "red": 227,
+    "green": 174,
+    "blue": 38,
+    "coverage": 0.6429
+  },
+  "emojis/207.png": {
+    "red": 224,
+    "green": 176,
+    "blue": 57,
+    "coverage": 0.7059
+  },
+  "emojis/208.png": {
+    "red": 229,
+    "green": 181,
+    "blue": 56,
+    "coverage": 0.7079
+  },
+  "emojis/209.png": {
+    "red": 230,
+    "green": 181,
+    "blue": 55,
+    "coverage": 0.7047
+  },
+  "emojis/210.png": {
+    "red": 226,
+    "green": 178,
+    "blue": 59,
+    "coverage": 0.622
+  },
+  "emojis/211.png": {
+    "red": 229,
+    "green": 179,
+    "blue": 51,
+    "coverage": 0.6409
+  },
+  "emojis/212.png": {
+    "red": 219,
+    "green": 168,
+    "blue": 50,
+    "coverage": 0.7979
+  },
+  "emojis/213.png": {
+    "red": 224,
+    "green": 177,
+    "blue": 53,
+    "coverage": 0.6786
+  },
+  "emojis/214.png": {
+    "red": 232,
+    "green": 180,
+    "blue": 45,
+    "coverage": 0.6729
+  },
+  "emojis/215.png": {
+    "red": 224,
+    "green": 174,
+    "blue": 53,
+    "coverage": 0.6671
+  },
+  "emojis/216.png": {
+    "red": 184,
+    "green": 151,
+    "blue": 110,
+    "coverage": 0.644
+  },
+  "emojis/217.png": {
+    "red": 174,
+    "green": 137,
+    "blue": 91,
+    "coverage": 0.5016
+  },
+  "emojis/218.png": {
+    "red": 98,
+    "green": 96,
+    "blue": 96,
+    "coverage": 0.5621
+  },
+  "emojis/219.png": {
+    "red": 152,
+    "green": 76,
+    "blue": 40,
+    "coverage": 0.6174
+  },
+  "emojis/220.png": {
+    "red": 192,
+    "green": 167,
+    "blue": 137,
+    "coverage": 0.5801
+  },
+  "emojis/221.png": {
+    "red": 175,
+    "green": 127,
+    "blue": 79,
+    "coverage": 0.4146
+  },
+  "emojis/222.png": {
+    "red": 178,
+    "green": 143,
+    "blue": 87,
+    "coverage": 0.3968
+  },
+  "emojis/223.png": {
+    "red": 177,
+    "green": 178,
+    "blue": 178,
+    "coverage": 0.4593
+  },
+  "emojis/224.png": {
+    "red": 114,
+    "green": 113,
+    "blue": 113,
+    "coverage": 0.4701
+  },
+  "emojis/225.png": {
+    "red": 199,
+    "green": 112,
+    "blue": 29,
+    "coverage": 0.6108
+  },
+  "emojis/226.png": {
+    "red": 102,
+    "green": 90,
+    "blue": 72,
+    "coverage": 0.3242
+  },
+  "emojis/227.png": {
+    "red": 218,
+    "green": 177,
+    "blue": 53,
+    "coverage": 0.5369
+  },
+  "emojis/228.png": {
+    "red": 195,
+    "green": 167,
+    "blue": 144,
+    "coverage": 0.4655
+  },
+  "emojis/229.png": {
+    "red": 66,
+    "green": 65,
+    "blue": 64,
+    "coverage": 0.4625
+  },
+  "emojis/230.png": {
+    "red": 199,
+    "green": 131,
+    "blue": 34,
+    "coverage": 0.6844
+  },
+  "emojis/231.png": {
+    "red": 184,
+    "green": 157,
+    "blue": 42,
+    "coverage": 0.5862
+  },
+  "emojis/232.png": {
+    "red": 164,
+    "green": 112,
+    "blue": 67,
+    "coverage": 0.323
+  },
+  "emojis/233.png": {
+    "red": 175,
+    "green": 136,
+    "blue": 78,
+    "coverage": 0.3371
+  },
+  "emojis/234.png": {
+    "red": 141,
+    "green": 123,
+    "blue": 83,
+    "coverage": 0.4763
+  },
+  "emojis/235.png": {
+    "red": 85,
+    "green": 78,
+    "blue": 42,
+    "coverage": 0.3114
+  },
+  "emojis/236.png": {
+    "red": 194,
+    "green": 144,
+    "blue": 209,
+    "coverage": 0.4952
+  },
+  "emojis/237.png": {
+    "red": 95,
+    "green": 91,
+    "blue": 87,
+    "coverage": 0.349
+  },
+  "emojis/238.png": {
+    "red": 151,
+    "green": 111,
+    "blue": 76,
+    "coverage": 0.3071
+  },
+  "emojis/239.png": {
+    "red": 100,
+    "green": 81,
+    "blue": 70,
+    "coverage": 0.4537
+  },
+  "emojis/240.png": {
+    "red": 197,
+    "green": 183,
+    "blue": 170,
+    "coverage": 0.5204
+  },
+  "emojis/241.png": {
+    "red": 148,
+    "green": 104,
+    "blue": 74,
+    "coverage": 0.3705
+  },
+  "emojis/242.png": {
+    "red": 76,
+    "green": 66,
+    "blue": 66,
+    "coverage": 0.3821
+  },
+  "emojis/243.png": {
+    "red": 142,
+    "green": 136,
+    "blue": 133,
+    "coverage": 0.3816
+  },
+  "emojis/244.png": {
+    "red": 213,
+    "green": 161,
+    "blue": 152,
+    "coverage": 0.6272
+  },
+  "emojis/245.png": {
+    "red": 221,
+    "green": 179,
+    "blue": 155,
+    "coverage": 0.3876
+  },
+  "emojis/246.png": {
+    "red": 102,
+    "green": 82,
+    "blue": 69,
+    "coverage": 0.4758
+  },
+  "emojis/247.png": {
+    "red": 196,
+    "green": 123,
+    "blue": 140,
+    "coverage": 0.5202
+  },
+  "emojis/248.png": {
+    "red": 184,
+    "green": 179,
+    "blue": 167,
+    "coverage": 0.5184
+  },
+  "emojis/249.png": {
+    "red": 187,
+    "green": 185,
+    "blue": 176,
+    "coverage": 0.5114
+  },
+  "emojis/250.png": {
+    "red": 147,
+    "green": 126,
+    "blue": 100,
+    "coverage": 0.3369
+  },
+  "emojis/251.png": {
+    "red": 168,
+    "green": 118,
+    "blue": 71,
+    "coverage": 0.3014
+  },
+  "emojis/252.png": {
+    "red": 173,
+    "green": 120,
+    "blue": 80,
+    "coverage": 0.3714
+  },
+  "emojis/253.png": {
+    "red": 214,
+    "green": 201,
+    "blue": 168,
+    "coverage": 0.3218
+  },
+  "emojis/254.png": {
+    "red": 179,
+    "green": 127,
+    "blue": 54,
+    "coverage": 0.2259
+  },
+  "emojis/255.png": {
+    "red": 124,
+    "green": 126,
+    "blue": 123,
+    "coverage": 0.4067
+  },
+  "emojis/256.png": {
+    "red": 122,
+    "green": 91,
+    "blue": 66,
+    "coverage": 0.467
+  },
+  "emojis/257.png": {
+    "red": 117,
+    "green": 112,
+    "blue": 109,
+    "coverage": 0.4044
+  },
+  "emojis/258.png": {
+    "red": 124,
+    "green": 122,
+    "blue": 121,
+    "coverage": 0.3534
+  },
+  "emojis/259.png": {
+    "red": 186,
+    "green": 176,
+    "blue": 184,
+    "coverage": 0.6125
+  },
+  "emojis/260.png": {
+    "red": 212,
+    "green": 202,
+    "blue": 203,
+    "coverage": 0.509
+  },
+  "emojis/261.png": {
+    "red": 131,
+    "green": 121,
+    "blue": 110,
+    "coverage": 0.4143
+  },
+  "emojis/262.png": {
+    "red": 216,
+    "green": 170,
+    "blue": 154,
+    "coverage": 0.6757
+  },
+  "emojis/263.png": {
+    "red": 191,
+    "green": 178,
+    "blue": 179,
+    "coverage": 0.514
+  },
+  "emojis/264.png": {
+    "red": 197,
+    "green": 194,
+    "blue": 195,
+    "coverage": 0.4359
+  },
+  "emojis/265.png": {
+    "red": 138,
+    "green": 94,
+    "blue": 44,
+    "coverage": 0.6057
+  },
+  "emojis/266.png": {
+    "red": 124,
+    "green": 94,
+    "blue": 70,
+    "coverage": 0.5878
+  },
+  "emojis/267.png": {
+    "red": 132,
+    "green": 101,
+    "blue": 77,
+    "coverage": 0.4527
+  },
+  "emojis/268.png": {
+    "red": 97,
+    "green": 75,
+    "blue": 59,
+    "coverage": 0.4816
+  },
+  "emojis/269.png": {
+    "red": 127,
+    "green": 88,
+    "blue": 52,
+    "coverage": 0.62
+  },
+  "emojis/270.png": {
+    "red": 180,
+    "green": 182,
+    "blue": 184,
+    "coverage": 0.6017
+  },
+  "emojis/271.png": {
+    "red": 140,
+    "green": 124,
+    "blue": 119,
+    "coverage": 0.6285
+  },
+  "emojis/272.png": {
+    "red": 168,
+    "green": 168,
+    "blue": 168,
+    "coverage": 0.6535
+  },
+  "emojis/273.png": {
+    "red": 94,
+    "green": 76,
+    "blue": 47,
+    "coverage": 0.6989
+  },
+  "emojis/274.png": {
+    "red": 102,
+    "green": 77,
+    "blue": 54,
+    "coverage": 0.3968
+  },
+  "emojis/275.png": {
+    "red": 86,
+    "green": 82,
+    "blue": 75,
+    "coverage": 0.4702
+  },
+  "emojis/276.png": {
+    "red": 162,
+    "green": 122,
+    "blue": 79,
+    "coverage": 0.2275
+  },
+  "emojis/277.png": {
+    "red": 105,
+    "green": 101,
+    "blue": 93,
+    "coverage": 0.3504
+  },
+  "emojis/278.png": {
+    "red": 70,
+    "green": 70,
+    "blue": 70,
+    "coverage": 0.2946
+  },
+  "emojis/279.png": {
+    "red": 130,
+    "green": 92,
+    "blue": 84,
+    "coverage": 0.6435
+  },
+  "emojis/280.png": {
+    "red": 216,
+    "green": 165,
+    "blue": 139,
+    "coverage": 0.487
+  },
+  "emojis/281.png": {
+    "red": 197,
+    "green": 173,
+    "blue": 163,
+    "coverage": 0.3661
+  },
+  "emojis/282.png": {
+    "red": 223,
+    "green": 194,
+    "blue": 118,
+    "coverage": 0.5943
+  },
+  "emojis/283.png": {
+    "red": 224,
+    "green": 185,
+    "blue": 55,
+    "coverage": 0.4819
+  },
+  "emojis/284.png": {
+    "red": 232,
+    "green": 182,
+    "blue": 51,
+    "coverage": 0.4597
+  },
+  "emojis/285.png": {
+    "red": 137,
+    "green": 159,
+    "blue": 161,
+    "coverage": 0.4866
+  },
+  "emojis/286.png": {
+    "red": 118,
+    "green": 105,
+    "blue": 88,
+    "coverage": 0.4828
+  },
+  "emojis/287.png": {
+    "red": 186,
+    "green": 187,
+    "blue": 176,
+    "coverage": 0.3677
+  },
+  "emojis/288.png": {
+    "red": 79,
+    "green": 68,
+    "blue": 59,
+    "coverage": 0.4305
+  },
+  "emojis/289.png": {
+    "red": 137,
+    "green": 126,
+    "blue": 113,
+    "coverage": 0.3877
+  },
+  "emojis/290.png": {
+    "red": 195,
+    "green": 190,
+    "blue": 172,
+    "coverage": 0.4294
+  },
+  "emojis/291.png": {
+    "red": 137,
+    "green": 111,
+    "blue": 91,
+    "coverage": 0.4507
+  },
+  "emojis/292.png": {
+    "red": 175,
+    "green": 131,
+    "blue": 93,
+    "coverage": 0.4184
+  },
+  "emojis/293.png": {
+    "red": 121,
+    "green": 107,
+    "blue": 86,
+    "coverage": 0.3345
+  },
+  "emojis/294.png": {
+    "red": 219,
+    "green": 95,
+    "blue": 98,
+    "coverage": 0.1687
+  },
+  "emojis/295.png": {
+    "red": 72,
+    "green": 131,
+    "blue": 85,
+    "coverage": 0.528
+  },
+  "emojis/296.png": {
+    "red": 127,
+    "green": 134,
+    "blue": 43,
+    "coverage": 0.3715
+  },
+  "emojis/297.png": {
+    "red": 121,
+    "green": 163,
+    "blue": 79,
+    "coverage": 0.6016
+  },
+  "emojis/298.png": {
+    "red": 88,
+    "green": 123,
+    "blue": 86,
+    "coverage": 0.4844
+  },
+  "emojis/299.png": {
+    "red": 100,
+    "green": 133,
+    "blue": 71,
+    "coverage": 0.3999
+  },
+  "emojis/300.png": {
+    "red": 76,
+    "green": 138,
+    "blue": 61,
+    "coverage": 0.2476
+  },
+  "emojis/301.png": {
+    "red": 124,
+    "green": 143,
+    "blue": 55,
+    "coverage": 0.3848
+  },
+  "emojis/302.png": {
+    "red": 148,
+    "green": 161,
+    "blue": 45,
+    "coverage": 0.6159
+  },
+  "emojis/303.png": {
+    "red": 133,
+    "green": 158,
+    "blue": 71,
+    "coverage": 0.4758
+  },
+  "emojis/304.png": {
+    "red": 53,
+    "green": 118,
+    "blue": 142,
+    "coverage": 0.3217
+  },
+  "emojis/305.png": {
+    "red": 85,
+    "green": 127,
+    "blue": 25,
+    "coverage": 0.3462
+  },
+  "emojis/306.png": {
+    "red": 67,
+    "green": 162,
+    "blue": 189,
+    "coverage": 0.5649
+  },
+  "emojis/307.png": {
+    "red": 142,
+    "green": 178,
+    "blue": 194,
+    "coverage": 0.4243
+  },
+  "emojis/308.png": {
+    "red": 89,
+    "green": 182,
+    "blue": 204,
+    "coverage": 0.3947
+  },
+  "emojis/309.png": {
+    "red": 142,
+    "green": 141,
+    "blue": 139,
+    "coverage": 0.3364
+  },
+  "emojis/310.png": {
+    "red": 116,
+    "green": 152,
+    "blue": 185,
+    "coverage": 0.404
+  },
+  "emojis/311.png": {
+    "red": 150,
+    "green": 188,
+    "blue": 121,
+    "coverage": 0.4621
+  },
+  "emojis/312.png": {
+    "red": 200,
+    "green": 160,
+    "blue": 92,
+    "coverage": 0.5783
+  },
+  "emojis/313.png": {
+    "red": 132,
+    "green": 148,
+    "blue": 151,
+    "coverage": 0.4272
+  },
+  "emojis/314.png": {
+    "red": 177,
+    "green": 73,
+    "blue": 89,
+    "coverage": 0.577
+  },
+  "emojis/315.png": {
+    "red": 182,
+    "green": 171,
+    "blue": 171,
+    "coverage": 0.6439
+  },
+  "emojis/316.png": {
+    "red": 164,
+    "green": 122,
+    "blue": 78,
+    "coverage": 0.5248
+  },
+  "emojis/317.png": {
+    "red": 43,
+    "green": 137,
+    "blue": 181,
+    "coverage": 0.4912
+  },
+  "emojis/318.png": {
+    "red": 131,
+    "green": 130,
+    "blue": 47,
+    "coverage": 0.3739
+  },
+  "emojis/319.png": {
+    "red": 75,
+    "green": 61,
+    "blue": 58,
+    "coverage": 0.4164
+  },
+  "emojis/320.png": {
+    "red": 137,
+    "green": 122,
+    "blue": 50,
+    "coverage": 0.6046
+  },
+  "emojis/321.png": {
+    "red": 106,
+    "green": 137,
+    "blue": 0,
+    "coverage": 0.4305
+  },
+  "emojis/322.png": {
+    "red": 126,
+    "green": 67,
+    "blue": 41,
+    "coverage": 0.4462
+  },
+  "emojis/323.png": {
+    "red": 113,
+    "green": 87,
+    "blue": 56,
+    "coverage": 0.2636
+  },
+  "emojis/324.png": {
+    "red": 132,
+    "green": 74,
+    "blue": 63,
+    "coverage": 0.2138
+  },
+  "emojis/325.png": {
+    "red": 57,
+    "green": 54,
+    "blue": 56,
+    "coverage": 0.198
+  },
+  "emojis/326.png": {
+    "red": 144,
+    "green": 144,
+    "blue": 144,
+    "coverage": 0.1626
+  },
+  "emojis/327.png": {
+    "red": 158,
+    "green": 101,
+    "blue": 27,
+    "coverage": 0.2623
+  },
+  "emojis/328.png": {
+    "red": 107,
+    "green": 92,
+    "blue": 78,
+    "coverage": 0.4178
+  },
+  "emojis/329.png": {
+    "red": 146,
+    "green": 103,
+    "blue": 63,
+    "coverage": 0.5097
+  },
+  "emojis/330.png": {
+    "red": 205,
+    "green": 77,
+    "blue": 84,
+    "coverage": 0.3238
+  },
+  "emojis/331.png": {
+    "red": 75,
+    "green": 153,
+    "blue": 27,
+    "coverage": 0.4988
+  },
+  "emojis/332.png": {
+    "red": 163,
+    "green": 127,
+    "blue": 57,
+    "coverage": 0.5336
+  },
+  "emojis/333.png": {
+    "red": 247,
+    "green": 161,
+    "blue": 198,
+    "coverage": 0.6974
+  },
+  "emojis/334.png": {
+    "red": 253,
+    "green": 194,
+    "blue": 194,
+    "coverage": 0.6673
+  },
+  "emojis/335.png": {
+    "red": 165,
+    "green": 151,
+    "blue": 123,
+    "coverage": 0.4089
+  },
+  "emojis/336.png": {
+    "red": 224,
+    "green": 162,
+    "blue": 55,
+    "coverage": 0.719
+  },
+  "emojis/337.png": {
+    "red": 179,
+    "green": 35,
+    "blue": 30,
+    "coverage": 0.4623
+  },
+  "emojis/338.png": {
+    "red": 113,
+    "green": 60,
+    "blue": 36,
+    "coverage": 0.3541
+  },
+  "emojis/339.png": {
+    "red": 198,
+    "green": 67,
+    "blue": 80,
+    "coverage": 0.7305
+  },
+  "emojis/340.png": {
+    "red": 172,
+    "green": 138,
+    "blue": 2,
+    "coverage": 0.5219
+  },
+  "emojis/341.png": {
+    "red": 227,
+    "green": 191,
+    "blue": 57,
+    "coverage": 0.6362
+  },
+  "emojis/342.png": {
+    "red": 193,
+    "green": 122,
+    "blue": 103,
+    "coverage": 0.3998
+  },
+  "emojis/343.png": {
+    "red": 107,
+    "green": 180,
+    "blue": 25,
+    "coverage": 0.2123
+  },
+  "emojis/344.png": {
+    "red": 156,
+    "green": 141,
+    "blue": 56,
+    "coverage": 0.3791
+  },
+  "emojis/345.png": {
+    "red": 56,
+    "green": 111,
+    "blue": 59,
+    "coverage": 0.3745
+  },
+  "emojis/346.png": {
+    "red": 93,
+    "green": 128,
+    "blue": 34,
+    "coverage": 0.571
+  },
+  "emojis/347.png": {
+    "red": 101,
+    "green": 139,
+    "blue": 42,
+    "coverage": 0.363
+  },
+  "emojis/348.png": {
+    "red": 89,
+    "green": 150,
+    "blue": 45,
+    "coverage": 0.3999
+  },
+  "emojis/349.png": {
+    "red": 176,
+    "green": 164,
+    "blue": 55,
+    "coverage": 0.2823
+  },
+  "emojis/350.png": {
+    "red": 93,
+    "green": 165,
+    "blue": 42,
+    "coverage": 0.3319
+  },
+  "emojis/351.png": {
+    "red": 98,
+    "green": 205,
+    "blue": 40,
+    "coverage": 0.4651
+  },
+  "emojis/352.png": {
+    "red": 111,
+    "green": 202,
+    "blue": 49,
+    "coverage": 0.5072
+  },
+  "emojis/353.png": {
+    "red": 194,
+    "green": 89,
+    "blue": 30,
+    "coverage": 0.3966
+  },
+  "emojis/354.png": {
+    "red": 178,
+    "green": 96,
+    "blue": 18,
+    "coverage": 0.3594
+  },
+  "emojis/355.png": {
+    "red": 122,
+    "green": 167,
+    "blue": 64,
+    "coverage": 0.3306
+  },
+  "emojis/356.png": {
+    "red": 223,
+    "green": 134,
+    "blue": 119,
+    "coverage": 0.6051
+  },
+  "emojis/357.png": {
+    "red": 155,
+    "green": 50,
+    "blue": 90,
+    "coverage": 0.5824
+  },
+  "emojis/358.png": {
+    "red": 186,
+    "green": 189,
+    "blue": 128,
+    "coverage": 0.5116
+  },
+  "emojis/359.png": {
+    "red": 204,
+    "green": 117,
+    "blue": 100,
+    "coverage": 0.4719
+  },
+  "emojis/360.png": {
+    "red": 210,
+    "green": 129,
+    "blue": 48,
+    "coverage": 0.5298
+  },
+  "emojis/361.png": {
+    "red": 195,
+    "green": 175,
+    "blue": 60,
+    "coverage": 0.6156
+  },
+  "emojis/362.png": {
+    "red": 232,
+    "green": 202,
+    "blue": 117,
+    "coverage": 0.3914
+  },
+  "emojis/363.png": {
+    "red": 154,
+    "green": 130,
+    "blue": 49,
+    "coverage": 0.3103
+  },
+  "emojis/364.png": {
+    "red": 160,
+    "green": 129,
+    "blue": 31,
+    "coverage": 0.5998
+  },
+  "emojis/365.png": {
+    "red": 200,
+    "green": 65,
+    "blue": 57,
+    "coverage": 0.6065
+  },
+  "emojis/366.png": {
+    "red": 128,
+    "green": 176,
+    "blue": 61,
+    "coverage": 0.6051
+  },
+  "emojis/367.png": {
+    "red": 169,
+    "green": 171,
+    "blue": 64,
+    "coverage": 0.5568
+  },
+  "emojis/368.png": {
+    "red": 218,
+    "green": 120,
+    "blue": 72,
+    "coverage": 0.6545
+  },
+  "emojis/369.png": {
+    "red": 175,
+    "green": 77,
+    "blue": 69,
+    "coverage": 0.4749
+  },
+  "emojis/370.png": {
+    "red": 184,
+    "green": 70,
+    "blue": 56,
+    "coverage": 0.5448
+  },
+  "emojis/371.png": {
+    "red": 81,
+    "green": 114,
+    "blue": 170,
+    "coverage": 0.5194
+  },
+  "emojis/372.png": {
+    "red": 164,
+    "green": 168,
+    "blue": 81,
+    "coverage": 0.7203
+  },
+  "emojis/373.png": {
+    "red": 196,
+    "green": 76,
+    "blue": 34,
+    "coverage": 0.6396
+  },
+  "emojis/374.png": {
+    "red": 171,
+    "green": 154,
+    "blue": 132,
+    "coverage": 0.6735
+  },
+  "emojis/375.png": {
+    "red": 179,
+    "green": 169,
+    "blue": 93,
+    "coverage": 0.62
+  },
+  "emojis/376.png": {
+    "red": 125,
+    "green": 89,
+    "blue": 115,
+    "coverage": 0.449
+  },
+  "emojis/377.png": {
+    "red": 172,
+    "green": 126,
+    "blue": 73,
+    "coverage": 0.6206
+  },
+  "emojis/378.png": {
+    "red": 166,
+    "green": 117,
+    "blue": 35,
+    "coverage": 0.2741
+  },
+  "emojis/379.png": {
+    "red": 148,
+    "green": 144,
+    "blue": 30,
+    "coverage": 0.6013
+  },
+  "emojis/380.png": {
+    "red": 191,
+    "green": 71,
+    "blue": 62,
+    "coverage": 0.3968
+  },
+  "emojis/381.png": {
+    "red": 86,
+    "green": 120,
+    "blue": 47,
+    "coverage": 0.6698
+  },
+  "emojis/382.png": {
+    "red": 127,
+    "green": 178,
+    "blue": 78,
+    "coverage": 0.504
+  },
+  "emojis/383.png": {
+    "red": 58,
+    "green": 142,
+    "blue": 55,
+    "coverage": 0.6905
+  },
+  "emojis/384.png": {
+    "red": 82,
+    "green": 123,
+    "blue": 51,
+    "coverage": 0.6143
+  },
+  "emojis/385.png": {
+    "red": 183,
+    "green": 152,
+    "blue": 135,
+    "coverage": 0.5378
+  },
+  "emojis/386.png": {
+    "red": 206,
+    "green": 149,
+    "blue": 105,
+    "coverage": 0.7131
+  },
+  "emojis/387.png": {
+    "red": 174,
+    "green": 131,
+    "blue": 63,
+    "coverage": 0.6229
+  },
+  "emojis/388.png": {
+    "red": 133,
+    "green": 63,
+    "blue": 35,
+    "coverage": 0.7448
+  },
+  "emojis/389.png": {
+    "red": 209,
+    "green": 171,
+    "blue": 112,
+    "coverage": 0.6967
+  },
+  "emojis/390.png": {
+    "red": 207,
+    "green": 136,
+    "blue": 34,
+    "coverage": 0.6155
+  },
+  "emojis/391.png": {
+    "red": 223,
+    "green": 168,
+    "blue": 99,
+    "coverage": 0.3945
+  },
+  "emojis/392.png": {
+    "red": 198,
+    "green": 183,
+    "blue": 159,
+    "coverage": 0.4399
+  },
+  "emojis/393.png": {
+    "red": 201,
+    "green": 128,
+    "blue": 79,
+    "coverage": 0.5216
+  },
+  "emojis/394.png": {
+    "red": 217,
+    "green": 166,
+    "blue": 113,
+    "coverage": 0.6242
+  },
+  "emojis/395.png": {
+    "red": 225,
+    "green": 185,
+    "blue": 120,
+    "coverage": 0.5925
+  },
+  "emojis/396.png": {
+    "red": 223,
+    "green": 167,
+    "blue": 78,
+    "coverage": 0.5384
+  },
+  "emojis/397.png": {
+    "red": 242,
+    "green": 179,
+    "blue": 32,
+    "coverage": 0.4839
+  },
+  "emojis/398.png": {
+    "red": 186,
+    "green": 113,
+    "blue": 83,
+    "coverage": 0.5104
+  },
+  "emojis/399.png": {
+    "red": 166,
+    "green": 110,
+    "blue": 70,
+    "coverage": 0.372
+  },
+  "emojis/400.png": {
+    "red": 199,
+    "green": 84,
+    "blue": 73,
+    "coverage": 0.5191
+  },
+  "emojis/401.png": {
+    "red": 200,
+    "green": 108,
+    "blue": 71,
+    "coverage": 0.4821
+  },
+  "emojis/402.png": {
+    "red": 200,
+    "green": 138,
+    "blue": 65,
+    "coverage": 0.7373
+  },
+  "emojis/403.png": {
+    "red": 216,
+    "green": 114,
+    "blue": 60,
+    "coverage": 0.6912
+  },
+  "emojis/404.png": {
+    "red": 205,
+    "green": 110,
+    "blue": 47,
+    "coverage": 0.4738
+  },
+  "emojis/405.png": {
+    "red": 214,
+    "green": 147,
+    "blue": 72,
+    "coverage": 0.4919
+  },
+  "emojis/406.png": {
+    "red": 214,
+    "green": 174,
+    "blue": 99,
+    "coverage": 0.524
+  },
+  "emojis/407.png": {
+    "red": 189,
+    "green": 155,
+    "blue": 63,
+    "coverage": 0.5808
+  },
+  "emojis/408.png": {
+    "red": 176,
+    "green": 163,
+    "blue": 147,
+    "coverage": 0.5444
+  },
+  "emojis/409.png": {
+    "red": 194,
+    "green": 144,
+    "blue": 55,
+    "coverage": 0.398
+  },
+  "emojis/410.png": {
+    "red": 147,
+    "green": 127,
+    "blue": 72,
+    "coverage": 0.5368
+  },
+  "emojis/411.png": {
+    "red": 129,
+    "green": 111,
+    "blue": 80,
+    "coverage": 0.4267
+  },
+  "emojis/412.png": {
+    "red": 220,
+    "green": 215,
+    "blue": 208,
+    "coverage": 0.5489
+  },
+  "emojis/413.png": {
+    "red": 110,
+    "green": 103,
+    "blue": 88,
+    "coverage": 0.5246
+  },
+  "emojis/414.png": {
+    "red": 142,
+    "green": 104,
+    "blue": 55,
+    "coverage": 0.7237
+  },
+  "emojis/415.png": {
+    "red": 170,
+    "green": 171,
+    "blue": 152,
+    "coverage": 0.4501
+  },
+  "emojis/416.png": {
+    "red": 159,
+    "green": 75,
+    "blue": 64,
+    "coverage": 0.3916
+  },
+  "emojis/417.png": {
+    "red": 125,
+    "green": 162,
+    "blue": 209,
+    "coverage": 0.4159
+  },
+  "emojis/418.png": {
+    "red": 149,
+    "green": 159,
+    "blue": 98,
+    "coverage": 0.7518
+  },
+  "emojis/419.png": {
+    "red": 224,
+    "green": 145,
+    "blue": 125,
+    "coverage": 0.5709
+  },
+  "emojis/420.png": {
+    "red": 229,
+    "green": 202,
+    "blue": 136,
+    "coverage": 0.3365
+  },
+  "emojis/421.png": {
+    "red": 189,
+    "green": 189,
+    "blue": 188,
+    "coverage": 0.3968
+  },
+  "emojis/422.png": {
+    "red": 196,
+    "green": 124,
+    "blue": 112,
+    "coverage": 0.5296
+  },
+  "emojis/423.png": {
+    "red": 139,
+    "green": 99,
+    "blue": 69,
+    "coverage": 0.8116
+  },
+  "emojis/424.png": {
+    "red": 136,
+    "green": 107,
+    "blue": 42,
+    "coverage": 0.696
+  },
+  "emojis/425.png": {
+    "red": 150,
+    "green": 149,
+    "blue": 138,
+    "coverage": 0.6643
+  },
+  "emojis/426.png": {
+    "red": 199,
+    "green": 198,
+    "blue": 194,
+    "coverage": 0.6873
+  },
+  "emojis/427.png": {
+    "red": 197,
+    "green": 168,
+    "blue": 142,
+    "coverage": 0.4323
+  },
+  "emojis/428.png": {
+    "red": 216,
+    "green": 188,
+    "blue": 161,
+    "coverage": 0.5004
+  },
+  "emojis/429.png": {
+    "red": 212,
+    "green": 165,
+    "blue": 123,
+    "coverage": 0.4433
+  },
+  "emojis/430.png": {
+    "red": 188,
+    "green": 101,
+    "blue": 98,
+    "coverage": 0.5689
+  },
+  "emojis/431.png": {
+    "red": 195,
+    "green": 164,
+    "blue": 131,
+    "coverage": 0.367
+  },
+  "emojis/432.png": {
+    "red": 231,
+    "green": 149,
+    "blue": 129,
+    "coverage": 0.63
+  },
+  "emojis/433.png": {
+    "red": 230,
+    "green": 147,
+    "blue": 88,
+    "coverage": 0.6016
+  },
+  "emojis/434.png": {
+    "red": 218,
+    "green": 205,
+    "blue": 198,
+    "coverage": 0.6419
+  },
+  "emojis/435.png": {
+    "red": 196,
+    "green": 98,
+    "blue": 22,
+    "coverage": 0.6923
+  },
+  "emojis/436.png": {
+    "red": 192,
+    "green": 178,
+    "blue": 131,
+    "coverage": 0.2972
+  },
+  "emojis/437.png": {
+    "red": 221,
+    "green": 186,
+    "blue": 136,
+    "coverage": 0.6113
+  },
+  "emojis/438.png": {
+    "red": 188,
+    "green": 148,
+    "blue": 83,
+    "coverage": 0.5732
+  },
+  "emojis/439.png": {
+    "red": 200,
+    "green": 193,
+    "blue": 195,
+    "coverage": 0.7063
+  },
+  "emojis/440.png": {
+    "red": 218,
+    "green": 194,
+    "blue": 146,
+    "coverage": 0.356
+  },
+  "emojis/441.png": {
+    "red": 199,
+    "green": 179,
+    "blue": 179,
+    "coverage": 0.5447
+  },
+  "emojis/442.png": {
+    "red": 205,
+    "green": 191,
+    "blue": 168,
+    "coverage": 0.5702
+  },
+  "emojis/443.png": {
+    "red": 147,
+    "green": 106,
+    "blue": 78,
+    "coverage": 0.7046
+  },
+  "emojis/444.png": {
+    "red": 181,
+    "green": 131,
+    "blue": 72,
+    "coverage": 0.6322
+  },
+  "emojis/445.png": {
+    "red": 212,
+    "green": 198,
+    "blue": 190,
+    "coverage": 0.6238
+  },
+  "emojis/446.png": {
+    "red": 226,
+    "green": 193,
+    "blue": 132,
+    "coverage": 0.6148
+  },
+  "emojis/447.png": {
+    "red": 205,
+    "green": 181,
+    "blue": 126,
+    "coverage": 0.586
+  },
+  "emojis/448.png": {
+    "red": 218,
+    "green": 153,
+    "blue": 70,
+    "coverage": 0.4864
+  },
+  "emojis/449.png": {
+    "red": 189,
+    "green": 75,
+    "blue": 67,
+    "coverage": 0.444
+  },
+  "emojis/450.png": {
+    "red": 187,
+    "green": 186,
+    "blue": 211,
+    "coverage": 0.3064
+  },
+  "emojis/451.png": {
+    "red": 170,
+    "green": 162,
+    "blue": 137,
+    "coverage": 0.4428
+  },
+  "emojis/452.png": {
+    "red": 211,
+    "green": 170,
+    "blue": 133,
+    "coverage": 0.4966
+  },
+  "emojis/453.png": {
+    "red": 225,
+    "green": 175,
+    "blue": 70,
+    "coverage": 0.667
+  },
+  "emojis/454.png": {
+    "red": 211,
+    "green": 206,
+    "blue": 176,
+    "coverage": 0.4523
+  },
+  "emojis/455.png": {
+    "red": 203,
+    "green": 201,
+    "blue": 196,
+    "coverage": 0.5185
+  },
+  "emojis/456.png": {
+    "red": 159,
+    "green": 153,
+    "blue": 143,
+    "coverage": 0.4862
+  },
+  "emojis/457.png": {
+    "red": 194,
+    "green": 201,
+    "blue": 206,
+    "coverage": 0.4542
+  },
+  "emojis/458.png": {
+    "red": 163,
+    "green": 162,
+    "blue": 143,
+    "coverage": 0.623
+  },
+  "emojis/459.png": {
+    "red": 198,
+    "green": 199,
+    "blue": 202,
+    "coverage": 0.5113
+  },
+  "emojis/460.png": {
+    "red": 133,
+    "green": 132,
+    "blue": 84,
+    "coverage": 0.2894
+  },
+  "emojis/461.png": {
+    "red": 186,
+    "green": 127,
+    "blue": 125,
+    "coverage": 0.3995
+  },
+  "emojis/462.png": {
+    "red": 185,
+    "green": 182,
+    "blue": 162,
+    "coverage": 0.275
+  },
+  "emojis/463.png": {
+    "red": 189,
+    "green": 151,
+    "blue": 93,
+    "coverage": 0.34
+  },
+  "emojis/464.png": {
+    "red": 193,
+    "green": 152,
+    "blue": 104,
+    "coverage": 0.5889
+  },
+  "emojis/465.png": {
+    "red": 205,
+    "green": 168,
+    "blue": 118,
+    "coverage": 0.4463
+  },
+  "emojis/466.png": {
+    "red": 206,
+    "green": 188,
+    "blue": 134,
+    "coverage": 0.2762
+  },
+  "emojis/467.png": {
+    "red": 197,
+    "green": 165,
+    "blue": 131,
+    "coverage": 0.8208
+  },
+  "emojis/468.png": {
+    "red": 142,
+    "green": 201,
+    "blue": 234,
+    "coverage": 0.4911
+  },
+  "emojis/469.png": {
+    "red": 202,
+    "green": 136,
+    "blue": 136,
+    "coverage": 0.3282
+  },
+  "emojis/470.png": {
+    "red": 183,
+    "green": 140,
+    "blue": 96,
+    "coverage": 0.3145
+  },
+  "emojis/471.png": {
+    "red": 96,
+    "green": 165,
+    "blue": 116,
+    "coverage": 0.4293
+  },
+  "emojis/472.png": {
+    "red": 105,
+    "green": 60,
+    "blue": 41,
+    "coverage": 0.4079
+  },
+  "emojis/473.png": {
+    "red": 102,
+    "green": 131,
+    "blue": 146,
+    "coverage": 0.7489
+  },
+  "emojis/474.png": {
+    "red": 80,
+    "green": 117,
+    "blue": 157,
+    "coverage": 0.7492
+  },
+  "emojis/475.png": {
+    "red": 98,
+    "green": 128,
+    "blue": 150,
+    "coverage": 0.7491
+  },
+  "emojis/476.png": {
+    "red": 156,
+    "green": 209,
+    "blue": 228,
+    "coverage": 0.7319
+  },
+  "emojis/477.png": {
+    "red": 128,
+    "green": 174,
+    "blue": 183,
+    "coverage": 0.8062
+  },
+  "emojis/478.png": {
+    "red": 244,
+    "green": 189,
+    "blue": 51,
+    "coverage": 0.3456
+  },
+  "emojis/479.png": {
+    "red": 246,
+    "green": 216,
+    "blue": 126,
+    "coverage": 0.4446
+  },
+  "emojis/480.png": {
+    "red": 248,
+    "green": 218,
+    "blue": 118,
+    "coverage": 0.4252
+  },
+  "emojis/481.png": {
+    "red": 141,
+    "green": 163,
+    "blue": 151,
+    "coverage": 0.9874
+  },
+  "emojis/482.png": {
+    "red": 227,
+    "green": 232,
+    "blue": 236,
+    "coverage": 0.4589
+  },
+  "emojis/483.png": {
+    "red": 229,
+    "green": 228,
+    "blue": 216,
+    "coverage": 0.5709
+  },
+  "emojis/484.png": {
+    "red": 167,
+    "green": 132,
+    "blue": 91,
+    "coverage": 0.5524
+  },
+  "emojis/485.png": {
+    "red": 145,
+    "green": 71,
+    "blue": 217,
+    "coverage": 0.2939
+  },
+  "emojis/486.png": {
+    "red": 158,
+    "green": 217,
+    "blue": 246,
+    "coverage": 0.4631
+  },
+  "emojis/487.png": {
+    "red": 253,
+    "green": 195,
+    "blue": 60,
+    "coverage": 0.1714
+  },
+  "emojis/488.png": {
+    "red": 251,
+    "green": 142,
+    "blue": 59,
+    "coverage": 0.4692
+  },
+  "emojis/489.png": {
+    "red": 84,
+    "green": 194,
+    "blue": 243,
+    "coverage": 0.3523
+  },
+  "emojis/490.png": {
+    "red": 128,
+    "green": 167,
+    "blue": 191,
+    "coverage": 0.5287
+  },
+  "emojis/491.png": {
+    "red": 91,
+    "green": 131,
+    "blue": 75,
+    "coverage": 0.3399
+  },
+  "emojis/492.png": {
+    "red": 252,
+    "green": 202,
+    "blue": 69,
+    "coverage": 0.137
+  },
+  "emojis/493.png": {
+    "red": 135,
+    "green": 120,
+    "blue": 38,
+    "coverage": 0.2953
+  },
+  "emojis/494.png": {
+    "red": 160,
+    "green": 152,
+    "blue": 78,
+    "coverage": 0.3289
+  },
+  "emojis/495.png": {
+    "red": 224,
+    "green": 68,
+    "blue": 75,
+    "coverage": 0.3525
+  },
+  "emojis/496.png": {
+    "red": 197,
+    "green": 149,
+    "blue": 112,
+    "coverage": 0.4734
+  },
+  "emojis/497.png": {
+    "red": 202,
+    "green": 137,
+    "blue": 108,
+    "coverage": 0.3723
+  },
+  "emojis/498.png": {
+    "red": 197,
+    "green": 96,
+    "blue": 30,
+    "coverage": 0.7325
+  },
+  "emojis/499.png": {
+    "red": 216,
+    "green": 107,
+    "blue": 145,
+    "coverage": 0.5991
+  },
+  "emojis/500.png": {
+    "red": 189,
+    "green": 132,
+    "blue": 28,
+    "coverage": 0.4818
+  },
+  "emojis/501.png": {
+    "red": 204,
+    "green": 160,
+    "blue": 88,
+    "coverage": 0.344
+  },
+  "emojis/502.png": {
+    "red": 174,
+    "green": 174,
+    "blue": 174,
+    "coverage": 0.7077
+  },
+  "emojis/503.png": {
+    "red": 198,
+    "green": 183,
+    "blue": 178,
+    "coverage": 0.7345
+  },
+  "emojis/504.png": {
+    "red": 206,
+    "green": 206,
+    "blue": 47,
+    "coverage": 0.7341
+  },
+  "emojis/505.png": {
+    "red": 197,
+    "green": 107,
+    "blue": 51,
+    "coverage": 0.7236
+  },
+  "emojis/506.png": {
+    "red": 186,
+    "green": 186,
+    "blue": 186,
+    "coverage": 0.6879
+  },
+  "emojis/507.png": {
+    "red": 186,
+    "green": 123,
+    "blue": 91,
+    "coverage": 0.7375
+  },
+  "emojis/508.png": {
+    "red": 200,
+    "green": 145,
+    "blue": 69,
+    "coverage": 0.7375
+  },
+  "emojis/509.png": {
+    "red": 194,
+    "green": 213,
+    "blue": 51,
+    "coverage": 0.6978
+  },
+  "emojis/510.png": {
+    "red": 62,
+    "green": 130,
+    "blue": 186,
+    "coverage": 0.6273
+  },
+  "emojis/511.png": {
+    "red": 145,
+    "green": 137,
+    "blue": 135,
+    "coverage": 0.634
+  },
+  "emojis/512.png": {
+    "red": 202,
+    "green": 126,
+    "blue": 56,
+    "coverage": 0.3495
+  },
+  "emojis/513.png": {
+    "red": 158,
+    "green": 140,
+    "blue": 100,
+    "coverage": 0.2446
+  },
+  "emojis/514.png": {
+    "red": 160,
+    "green": 124,
+    "blue": 109,
+    "coverage": 0.1736
+  },
+  "emojis/515.png": {
+    "red": 232,
+    "green": 100,
+    "blue": 78,
+    "coverage": 0.5711
+  },
+  "emojis/516.png": {
+    "red": 179,
+    "green": 160,
+    "blue": 113,
+    "coverage": 0.3365
+  },
+  "emojis/517.png": {
+    "red": 188,
+    "green": 66,
+    "blue": 66,
+    "coverage": 0.4567
+  },
+  "emojis/518.png": {
+    "red": 138,
+    "green": 64,
+    "blue": 63,
+    "coverage": 0.222
+  },
+  "emojis/519.png": {
+    "red": 140,
+    "green": 150,
+    "blue": 50,
+    "coverage": 0.3051
+  },
+  "emojis/520.png": {
+    "red": 168,
+    "green": 166,
+    "blue": 166,
+    "coverage": 0.5446
+  },
+  "emojis/521.png": {
+    "red": 77,
+    "green": 104,
+    "blue": 136,
+    "coverage": 0.2895
+  },
+  "emojis/522.png": {
+    "red": 208,
+    "green": 103,
+    "blue": 98,
+    "coverage": 0.2947
+  },
+  "emojis/523.png": {
+    "red": 58,
+    "green": 59,
+    "blue": 63,
+    "coverage": 0.2806
+  },
+  "emojis/524.png": {
+    "red": 60,
+    "green": 65,
+    "blue": 71,
+    "coverage": 0.2672
+  },
+  "emojis/525.png": {
+    "red": 143,
+    "green": 144,
+    "blue": 144,
+    "coverage": 0.8086
+  },
+  "emojis/526.png": {
+    "red": 189,
+    "green": 132,
+    "blue": 115,
+    "coverage": 0.4802
+  },
+  "emojis/527.png": {
+    "red": 148,
+    "green": 98,
+    "blue": 59,
+    "coverage": 0.351
+  },
+  "emojis/528.png": {
+    "red": 168,
+    "green": 147,
+    "blue": 64,
+    "coverage": 0.3183
+  },
+  "emojis/529.png": {
+    "red": 179,
+    "green": 151,
+    "blue": 63,
+    "coverage": 0.3316
+  },
+  "emojis/530.png": {
+    "red": 102,
+    "green": 103,
+    "blue": 102,
+    "coverage": 0.3592
+  },
+  "emojis/531.png": {
+    "red": 190,
+    "green": 190,
+    "blue": 191,
+    "coverage": 0.3312
+  },
+  "emojis/532.png": {
+    "red": 73,
+    "green": 76,
+    "blue": 80,
+    "coverage": 0.7468
+  },
+  "emojis/533.png": {
+    "red": 92,
+    "green": 92,
+    "blue": 92,
+    "coverage": 0.6321
+  },
+  "emojis/534.png": {
+    "red": 131,
+    "green": 111,
+    "blue": 100,
+    "coverage": 0.5146
+  },
+  "emojis/535.png": {
+    "red": 186,
+    "green": 146,
+    "blue": 72,
+    "coverage": 0.5056
+  },
+  "emojis/536.png": {
+    "red": 179,
+    "green": 179,
+    "blue": 179,
+    "coverage": 0.7785
+  },
+  "emojis/537.png": {
+    "red": 111,
+    "green": 191,
+    "blue": 245,
+    "coverage": 0.4604
+  },
+  "emojis/538.png": {
+    "red": 154,
+    "green": 167,
+    "blue": 175,
+    "coverage": 0.3514
+  },
+  "emojis/539.png": {
+    "red": 183,
+    "green": 153,
+    "blue": 47,
+    "coverage": 0.5498
+  },
+  "emojis/540.png": {
+    "red": 72,
+    "green": 65,
+    "blue": 48,
+    "coverage": 0.6061
+  },
+  "emojis/541.png": {
+    "red": 65,
+    "green": 56,
+    "blue": 43,
+    "coverage": 0.4638
+  },
+  "emojis/542.png": {
+    "red": 167,
+    "green": 80,
+    "blue": 76,
+    "coverage": 0.4386
+  },
+  "emojis/543.png": {
+    "red": 118,
+    "green": 131,
+    "blue": 126,
+    "coverage": 0.2766
+  },
+  "emojis/544.png": {
+    "red": 50,
+    "green": 52,
+    "blue": 50,
+    "coverage": 0.2593
+  },
+  "emojis/545.png": {
+    "red": 136,
+    "green": 165,
+    "blue": 193,
+    "coverage": 0.7755
+  },
+  "emojis/546.png": {
+    "red": 109,
+    "green": 162,
+    "blue": 211,
+    "coverage": 0.5437
+  },
+  "emojis/547.png": {
+    "red": 73,
+    "green": 95,
+    "blue": 158,
+    "coverage": 0.428
+  },
+  "emojis/548.png": {
+    "red": 52,
+    "green": 193,
+    "blue": 178,
+    "coverage": 0.4356
+  },
+  "emojis/549.png": {
+    "red": 218,
+    "green": 146,
+    "blue": 37,
+    "coverage": 0.6744
+  },
+  "emojis/550.png": {
+    "red": 212,
+    "green": 105,
+    "blue": 127,
+    "coverage": 0.2403
+  },
+  "emojis/551.png": {
+    "red": 229,
+    "green": 151,
+    "blue": 203,
+    "coverage": 0.5489
+  },
+  "emojis/552.png": {
+    "red": 223,
+    "green": 135,
+    "blue": 171,
+    "coverage": 0.5725
+  },
+  "emojis/553.png": {
+    "red": 164,
+    "green": 117,
+    "blue": 87,
+    "coverage": 0.5823
+  },
+  "emojis/554.png": {
+    "red": 163,
+    "green": 123,
+    "blue": 81,
+    "coverage": 0.4477
+  },
+  "emojis/555.png": {
+    "red": 191,
+    "green": 49,
+    "blue": 43,
+    "coverage": 0.523
+  },
+  "emojis/556.png": {
+    "red": 132,
+    "green": 72,
+    "blue": 53,
+    "coverage": 0.4486
+  },
+  "emojis/557.png": {
+    "red": 165,
+    "green": 163,
+    "blue": 161,
+    "coverage": 0.4089
+  },
+  "emojis/558.png": {
+    "red": 164,
+    "green": 57,
+    "blue": 46,
+    "coverage": 0.4593
+  },
+  "emojis/559.png": {
+    "red": 198,
+    "green": 164,
+    "blue": 133,
+    "coverage": 0.3771
+  },
+  "emojis/560.png": {
+    "red": 186,
+    "green": 150,
+    "blue": 104,
+    "coverage": 0.3416
+  },
+  "emojis/561.png": {
+    "red": 95,
+    "green": 78,
+    "blue": 63,
+    "coverage": 0.4971
+  },
+  "emojis/562.png": {
+    "red": 30,
+    "green": 61,
+    "blue": 102,
+    "coverage": 0.2195
+  },
+  "emojis/563.png": {
+    "red": 29,
+    "green": 28,
+    "blue": 28,
+    "coverage": 0.7807
+  },
+  "emojis/564.png": {
+    "red": 222,
+    "green": 222,
+    "blue": 222,
+    "coverage": 0.7804
+  },
+  "emojis/565.png": {
+    "red": 31,
+    "green": 30,
+    "blue": 30,
+    "coverage": 0.9984
+  },
+  "emojis/566.png": {
+    "red": 217,
+    "green": 217,
+    "blue": 217,
+    "coverage": 0.9984
+  },
+  "emojis/567.png": {
+    "red": 72,
+    "green": 72,
+    "blue": 72,
+    "coverage": 0.2359
+  },
+  "emojis/568.png": {
+    "red": 231,
+    "green": 3,
+    "blue": 3,
+    "coverage": 0.4714
+  },
+  "emojis/569.png": {
+    "red": 172,
+    "green": 97,
+    "blue": 193,
+    "coverage": 0.9609
+  },
+  "emojis/570.png": {
+    "red": 176,
+    "green": 106,
+    "blue": 196,
+    "coverage": 0.9609
+  },
+  "emojis/571.png": {
+    "red": 178,
+    "green": 109,
+    "blue": 197,
+    "coverage": 0.9609
+  },
+  "emojis/572.png": {
+    "red": 114,
+    "green": 114,
+    "blue": 114,
+    "coverage": 0.2369
+  },
+  "emojis/573.png": {
+    "red": 20,
+    "green": 161,
+    "blue": 29,
+    "coverage": 0.4214
+  },
+  "emojis/574.png": {
+    "red": 234,
+    "green": 188,
+    "blue": 16,
+    "coverage": 0.4877
+  },
+  "emojis/575.png": {
+    "red": 218,
+    "green": 74,
+    "blue": 44,
+    "coverage": 0.4271
+  },
+  "emojis/576.png": {
+    "red": 229,
+    "green": 123,
+    "blue": 101,
+    "coverage": 0.6488
+  },
+  "emojis/577.png": {
+    "red": 218,
+    "green": 4,
+    "blue": 4,
+    "coverage": 0.1271
+  },
+  "emojis/578.png": {
+    "red": 219,
+    "green": 3,
+    "blue": 3,
+    "coverage": 0.133
+  },
+  "emojis/579.png": {
+    "red": 72,
+    "green": 72,
+    "blue": 72,
+    "coverage": 0.2319
+  },
+  "emojis/580.png": {
+    "red": 72,
+    "green": 72,
+    "blue": 72,
+    "coverage": 0.1313
+  },
+  "emojis/581.png": {
+    "red": 71,
+    "green": 71,
+    "blue": 71,
+    "coverage": 0.2278
+  },
+  "emojis/582.png": {
+    "red": 200,
+    "green": 39,
+    "blue": 39,
+    "coverage": 0.5933
+  },
+  "emojis/583.png": {
+    "red": 222,
+    "green": 35,
+    "blue": 35,
+    "coverage": 0.3593
+  },
+  "emojis/584.png": {
+    "red": 49,
+    "green": 49,
+    "blue": 49,
+    "coverage": 0.6041
+  },
+  "emojis/585.png": {
+    "red": 47,
+    "green": 47,
+    "blue": 47,
+    "coverage": 0.5909
+  },
+  "emojis/586.png": {
+    "red": 140,
+    "green": 165,
+    "blue": 187,
+    "coverage": 0.9609
+  },
+  "emojis/587.png": {
+    "red": 140,
+    "green": 165,
+    "blue": 187,
+    "coverage": 0.9609
+  },
+  "emojis/588.png": {
+    "red": 140,
+    "green": 164,
+    "blue": 186,
+    "coverage": 0.9609
   }
 }
